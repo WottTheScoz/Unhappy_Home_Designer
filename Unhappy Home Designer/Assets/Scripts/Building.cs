@@ -7,10 +7,10 @@ public class Building : MonoBehaviour
 {
     public bool Placed;
     public BoundsInt Area;
-    public int Cost;
+    //public int Cost;
 
     //public GameObject GameManagerObject;
-    public GameObject MoneyManagerObject;
+    //public GameObject MoneyManagerObject;
 
     #region Build Methods
 
@@ -30,27 +30,12 @@ public class Building : MonoBehaviour
 
     public void Place()
     {
-        //GameManager gameManager = GameManagerObject.GetComponent<GameManager>();
 
-        if (MoneyManager.Funds >= Cost)
-        {
-            Vector3Int PositionInt = GridBuildingSystem.current.gridLayout.LocalToCell(transform.position);
-            BoundsInt AreaTemp = Area;
-            AreaTemp.position = PositionInt;
-            Placed = true;
-            GridBuildingSystem.current.TakeArea(AreaTemp);
-
-            //TextMeshProUGUI Text = MoneyManagerObject.GetComponent<TextMeshProUGUI>();
-            //GameManager.CalculateCost(Cost);
-            MoneyManager moneyManager = MoneyManagerObject.GetComponent<MoneyManager>();
-            moneyManager.CalculateCost(Cost);
-            /*MoneyManager.Funds -= Cost;
-            Text.text = MoneyManager.Funds.ToString();*/
-        }
-        else
-        {
-            Debug.Log("Not enough money.");
-        }
+        Vector3Int PositionInt = GridBuildingSystem.current.gridLayout.LocalToCell(transform.position);
+        BoundsInt AreaTemp = Area;
+        AreaTemp.position = PositionInt;
+        Placed = true;
+        GridBuildingSystem.current.TakeArea(AreaTemp);
     }
     #endregion
 }

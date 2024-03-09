@@ -1,4 +1,4 @@
-Instructions for Basic Building and Money Management scripts.
+Instructions for Basic Building.
 
 
 GameObjects you will need:
@@ -9,9 +9,7 @@ GameObjects you will need:
 
 - Canvas
 - Button (child of Canvas)
-- TextMeshPro Prefab (child of Canvas)
 *The button will instantiate a piece of furniture; make one per piece of furniture.
-*The TextMeshPro prefab displays the player's current amount of money.
 
 - Empty Prefab
 - 2D Sprite (child of Canvas)
@@ -19,6 +17,8 @@ GameObjects you will need:
 
 
 **To create a prefab, drag a GameObject in the scene into the Project tab.
+
+**Be sure to create at least three sorting layers: one for Main Tilemap, one for Temp Tilemap, and one for your furniture. Main Tilemap should be the furthest back while Furniture should be in front.
 
 
 Script 1: GridBuildingSystem.cs
@@ -32,7 +32,8 @@ Attach GridBuildingSystem to your Grid. Attach the following GameObjects in the 
 Explanation: This script is the backbone behind the isometric grid system. The Main Tilemap contains the background elements (Namely the room itself; white tiles), while the Temp Tilemap is where the green and red tiles temporarily appear while placing a piece of furniture.
 
 
-Script 2: MoneyManager.cs
+OUTDATED: A Money System will no longer be used in this game.
+(Script 2: MoneyManager.cs
 
 Attach this script to your TextMeshPro prefab. Attach the following components in the inspector:
 
@@ -40,7 +41,7 @@ Attach this script to your TextMeshPro prefab. Attach the following components i
 
 Explanation: This script calculates the player's money and displays it on-screen.
 
-WARNING: This script may not fully work in its current state. It is able to calculate money, but may not be able to properly display these changes on-screen.
+WARNING: This script may not fully work in its current state. It is able to calculate money, but may not be able to properly display these changes on-screen.)
 
 
 Script 3: Building.cs
@@ -54,10 +55,11 @@ Attach this script to each of your Empty Prefabs parenting a piece of furniture.
   (Optional) Position - Decides where the object will be placed when instantiated.
   Size - The length and width (in tiles) of the piece of furniture. The Z axis value should ALWAYS be 1.
 
- Cost - How much the piece of furniture costs (in whole dollars).
- Money Manager Object - Holds the GameObject that has the MoneyManager script; likely your TextMeshPro prefab.
+ OUTDATED
+ (Cost - How much the piece of furniture costs (in whole dollars).
+ Money Manager Object - Holds the GameObject that has the MoneyManager script; likely your TextMeshPro prefab.)
 
-Explanation: Each piece of furniture will have one of these scripts attached to them, as it is what allows them to be dragged and placed. It also gives them individualized prices.
+Explanation: Each piece of furniture will have one of these scripts attached to them, as it is what allows them to be dragged and placed. 
 
 
 Part II: The Button Which Instantiates
