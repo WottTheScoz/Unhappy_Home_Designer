@@ -1,0 +1,1635 @@
+fileFormatVersion: 2
+guid: 96f7d927831ccb54b8faed4dec3d29cb
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Roomimage_0
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 952
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5e6e7ed8db7c934685117ea3d9c03b4
+      internalID: 1144444970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roomimage_1
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 952
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cf3690cdfbf4c544b00ee507592e0df
+      internalID: 696801669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roomimage_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 888
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6aef14577adc6f4682bc80fdf9ec7b7
+      internalID: 963246375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roomimage_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 888
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9435bf70188167e48ba7d1b77cdd7246
+      internalID: -1842702549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roomimage_4
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 888
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd4e9e5164aac524dada0e16f728ee0c
+      internalID: -1173045129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roomimage_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 824
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1ebfcf3ed8a559438f361e121830a46
+      internalID: -2078290899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roomimage_6
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 824
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8368fe6d36d239a4fb72e7ee43d4490d
+      internalID: 238890356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roomimage_7
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 824
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1ec83420165a894793c3fb6d3f41350
+      internalID: -272726584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roomimage_8
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 824
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec5d226e9852654a9926eb1b914afdf
+      internalID: 1295096739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roomimage_9
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 760
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d8d84eca0f062240b7e32ae7387694e
+      internalID: 1292016360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roomimage_10
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 760
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e94990182fc34544ba4b4f0f5f2ce1a4
+      internalID: -335575306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roomimage_11
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 760
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b97b11301bef8d943bff9aa9f5e49e10
+      internalID: -1994201410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roomimage_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 696
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5d4f45763f77c447b5e93271d559e4c
+      internalID: -1328945552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roomimage_13
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 696
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a3d399b09ba4934a950418791f15193
+      internalID: -682281082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roomimage_14
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 696
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c2564cb88fd8e04f9afd6131869dfde
+      internalID: 819051958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roomimage_15
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 696
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e148631057b15ee46b573d2a6e814888
+      internalID: 1214072459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roomimage_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 632
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c14f8f8ded8397a47bc7213570fb85dd
+      internalID: 1184518942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roomimage_17
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 632
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a85c6e42546b81a4fb960899aaed239d
+      internalID: 1535989502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roomimage_18
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 632
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 845af2734f71dc8479faa11032949510
+      internalID: 588701788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roomimage_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 568
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ae608df52be8534e9d455a68227fdfc
+      internalID: -1192583371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roomimage_20
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 568
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b03e40dacb71d2a4a9b6acd12757cb00
+      internalID: 1579572827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roomimage_21
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 568
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd51b4c837d4e834193bf5bcb98337b5
+      internalID: -831735892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roomimage_22
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 568
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48e39a63faa1e024f9f4f54e32026a1d
+      internalID: -815126173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roomimage_23
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 504
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 595b1f8718b4ff248975b8cad9c8e9a0
+      internalID: -10842187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roomimage_24
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 504
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07679968b49ccbe44b4be6b1ab6db036
+      internalID: -1022529483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roomimage_25
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 504
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab2436ce9e0a3984fbd288ba0f9b33f5
+      internalID: 917342096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roomimage_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 440
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07b3263b709d1f64ba44b5602bde5c0a
+      internalID: -1452093102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roomimage_27
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 440
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: be1ea634128eda144a68f4dde5f2d36b
+      internalID: -825493132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roomimage_28
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 440
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb77001f8f659d64c893361058551e13
+      internalID: 821179490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roomimage_29
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 440
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64db1ca2540ef2741bd19455a67c59b0
+      internalID: -1940711924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roomimage_30
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 376
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b2a567b217818d4f9745a48b7222f38
+      internalID: -1709022423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roomimage_31
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 376
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12824607a8153a041b027f5f9264943b
+      internalID: 607363307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roomimage_32
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 376
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37ad5368771251b41b2d14b7d7efbb5f
+      internalID: 1522361376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roomimage_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 312
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a2774b72b54994dbb1df1a5b464374
+      internalID: 1869861113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roomimage_34
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 312
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cf45d75f3b1d7d498df60ad026c8ea5
+      internalID: -182553454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roomimage_35
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 312
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfcae6b57355ecd409828938a5f8c3b5
+      internalID: 1052231737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roomimage_36
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 312
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 069cee4fbea56514b9d239b6a7014e88
+      internalID: 1005246206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roomimage_37
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 248
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a23dfa87ae1bbc447a096f65d84a961a
+      internalID: 589248590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roomimage_38
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 248
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3c1a3bcc5bc6cf46a7132d05601812e
+      internalID: 79184158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roomimage_39
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 248
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c07d32f893b21644a325411f7109849
+      internalID: 1336893912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roomimage_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 184
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bc5dbcbbe963094ab063ade442df281
+      internalID: 1912877487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roomimage_41
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 184
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 721f30afdf7caa04289ce28afc237a63
+      internalID: 1441444627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roomimage_42
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 184
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8405da3ebb3ad824c952b0220cb6c17a
+      internalID: -969243729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roomimage_43
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 184
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd9e8a636b24bc740911ecdec17eab68
+      internalID: 192358369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roomimage_44
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 120
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 091d503004835504687c809f555ea076
+      internalID: -739659509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roomimage_45
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 120
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ff665a628d05244386e458e7d11d4e6
+      internalID: 1069948500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roomimage_46
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 120
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b75c1017fa7f634a821deb052c57efb
+      internalID: -387292488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roomimage_47
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 56
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 354caf6dbc3e7a149aaa107860dbffbe
+      internalID: 2008517927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roomimage_48
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 56
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbdca7ea7ccefbc4ba49864c0b37e04b
+      internalID: 1450799591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roomimage_49
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 56
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47fb18ff6b736404898be99cc74ea284
+      internalID: -1915548554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Roomimage_0: 1144444970
+      Roomimage_1: 696801669
+      Roomimage_10: -335575306
+      Roomimage_11: -1994201410
+      Roomimage_12: -1328945552
+      Roomimage_13: -682281082
+      Roomimage_14: 819051958
+      Roomimage_15: 1214072459
+      Roomimage_16: 1184518942
+      Roomimage_17: 1535989502
+      Roomimage_18: 588701788
+      Roomimage_19: -1192583371
+      Roomimage_2: 963246375
+      Roomimage_20: 1579572827
+      Roomimage_21: -831735892
+      Roomimage_22: -815126173
+      Roomimage_23: -10842187
+      Roomimage_24: -1022529483
+      Roomimage_25: 917342096
+      Roomimage_26: -1452093102
+      Roomimage_27: -825493132
+      Roomimage_28: 821179490
+      Roomimage_29: -1940711924
+      Roomimage_3: -1842702549
+      Roomimage_30: -1709022423
+      Roomimage_31: 607363307
+      Roomimage_32: 1522361376
+      Roomimage_33: 1869861113
+      Roomimage_34: -182553454
+      Roomimage_35: 1052231737
+      Roomimage_36: 1005246206
+      Roomimage_37: 589248590
+      Roomimage_38: 79184158
+      Roomimage_39: 1336893912
+      Roomimage_4: -1173045129
+      Roomimage_40: 1912877487
+      Roomimage_41: 1441444627
+      Roomimage_42: -969243729
+      Roomimage_43: 192358369
+      Roomimage_44: -739659509
+      Roomimage_45: 1069948500
+      Roomimage_46: -387292488
+      Roomimage_47: 2008517927
+      Roomimage_48: 1450799591
+      Roomimage_49: -1915548554
+      Roomimage_5: -2078290899
+      Roomimage_6: 238890356
+      Roomimage_7: -272726584
+      Roomimage_8: 1295096739
+      Roomimage_9: 1292016360
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
