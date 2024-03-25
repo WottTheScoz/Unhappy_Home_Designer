@@ -4,18 +4,22 @@ using UnityEngine;
 
 public class ImageDragging : MonoBehaviour
 {
-    private float MousePositionOffsetX;
-    private float MousePositionOffsetY;
-
     //Boundary values are multiplied by the following two variables.
     public float BoundOffsetterX = 1f;
     public float BoundOffsetterY = 1f;
+
+    [Space(20)]
+    public bool ImageIsDraggable;
+
+    private float MousePositionOffsetX;
+    private float MousePositionOffsetY;
 
     private Vector3 ImageBoundsMin;
     private Vector3 ImageBoundsMax;
 
     void Start()
     {
+        ImageIsDraggable = true;
         CalculateImageBounds();
     }
 
@@ -57,14 +61,17 @@ public class ImageDragging : MonoBehaviour
     //Allows the image to be dragged under the constraints of its size.
     private void OnMouseDrag()
     {
-        float ThisPositionX = gameObject.transform.position.x;
-        float ThisPositionY = gameObject.transform.position.y;
+        if (ImageIsDraggable)
+        {
+            float ThisPositionX = gameObject.transform.position.x;
+            float ThisPositionY = gameObject.transform.position.y;
 
-        //The inverse functions of OnMouseDown()
-        ThisPositionX = Mathf.Clamp(GetMouseWorldPosition("x") + MousePositionOffsetX, ImageBoundsMin.x * BoundOffsetterX, ImageBoundsMax.x * BoundOffsetterX);
-        ThisPositionY = Mathf.Clamp(GetMouseWorldPosition("y") + MousePositionOffsetY, ImageBoundsMin.y * BoundOffsetterY, ImageBoundsMax.y * BoundOffsetterY);
+            //The inverse functions of OnMouseDown()
+            ThisPositionX = Mathf.Clamp(GetMouseWorldPosition("x") + MousePositionOffsetX, ImageBoundsMin.x * BoundOffsetterX, ImageBoundsMax.x * BoundOffsetterX);
+            ThisPositionY = Mathf.Clamp(GetMouseWorldPosition("y") + MousePositionOffsetY, ImageBoundsMin.y * BoundOffsetterY, ImageBoundsMax.y * BoundOffsetterY);
 
-        gameObject.transform.position = new Vector3(ThisPositionX, ThisPositionY, 0);
+            gameObject.transform.position = new Vector3(ThisPositionX, ThisPositionY, 0);
+        }
     }
     #endregion
 }

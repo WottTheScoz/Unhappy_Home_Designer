@@ -1,16 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using TMPro;
 
 public class MuralTimer : MonoBehaviour
 {
-    public GameObject TextObject;
+    public GameObject MuralManagerObject;
 
     public float TargetTime = 60.0f;
-
-    public string NewSceneName;
 
     private bool TimerIsOn = true;
 
@@ -30,19 +27,14 @@ public class MuralTimer : MonoBehaviour
 
             int TargetTimeInt = (int)TargetTime;
 
-            TextMeshProUGUI Text = TextObject.GetComponent<TextMeshProUGUI>();
+            TextMeshProUGUI Text = GetComponent<TextMeshProUGUI>();
             Text.text = TargetTimeInt.ToString();
         }
         else
         {
-            TimerEnded();
+            MuralManager muralManager = MuralManagerObject.GetComponent<MuralManager>(); 
+            muralManager.EndMuralScene();
             TimerIsOn = false;
         }
-    }
-
-    void TimerEnded()
-    {
-        //Debug.Log("Timer has ended");
-        SceneManager.LoadScene(NewSceneName);
     }
 }

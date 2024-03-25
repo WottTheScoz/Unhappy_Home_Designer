@@ -5,9 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class MuralManager : MonoBehaviour
 {
-    public string NewSceneName;
+    public GameObject Mural;
+    public GameObject Transition;
 
-    public AudioClip Audio;
+    public string NewSceneName;
 
     private AudioSource audioSource;
 
@@ -22,9 +23,21 @@ public class MuralManager : MonoBehaviour
         audioSource.Pause();
     }
 
-    //Skips the Mural Scene.
-    public void Skip()
+    #region Scene Transition Functions
+    public void EndMuralScene()
     {
+        //Debug.Log("Timer has ended");
+        ImageDragging imageDragging = Mural.GetComponent<ImageDragging>();
+        imageDragging.ImageIsDraggable = false;
+
+        StartCoroutine(SceneTransition());
+    }
+
+    IEnumerator SceneTransition()
+    {
+        Transition.SetActive(true);
+        yield return new WaitForSeconds(2);
         SceneManager.LoadScene(NewSceneName);
     }
+    #endregion
 }

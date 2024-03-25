@@ -34,6 +34,9 @@ public class GridBuildingSystem : MonoBehaviour
         TileBases.Add(TileType.White, Resources.Load<TileBase>(TilePath + "white"));
         TileBases.Add(TileType.Green, Resources.Load<TileBase>(TilePath + "green"));
         TileBases.Add(TileType.Red, Resources.Load<TileBase>(TilePath + "red"));
+
+        TilemapRenderer MainTilemapRenderer = MainTilemap.GetComponent<TilemapRenderer>();
+        MainTilemapRenderer.enabled = false;
     }
 
     void Update()
@@ -43,37 +46,41 @@ public class GridBuildingSystem : MonoBehaviour
             return;
         }
 
-        if (Input.GetMouseButton(0))
+        if (GameManager.GridIsActive)
         {
-            if (EventSystem.current.IsPointerOverGameObject(0))
+            //Allows the player to drag furniture.
+            if (Input.GetMouseButton(0))
             {
-                return;
-            }
-
-            if (!Temp.Placed)
-            {
-                Vector2 TouchPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-                Vector3Int CellPos = gridLayout.LocalToCell(TouchPos);
-                
-                if(PrevPos != CellPos)
+                if (EventSystem.current.IsPointerOverGameObject(0))
                 {
-                    Temp.transform.localPosition = gridLayout.CellToLocalInterpolated(CellPos + new Vector3(0.5f, 0.5f, 0f));
-                    PrevPos = CellPos;
-                    FollowBuilding();
+                    return;
+                }
+
+                if (!Temp.Placed)
+                {
+                    Vector2 TouchPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+                    Vector3Int CellPos = gridLayout.LocalToCell(TouchPos);
+
+                    if (PrevPos != CellPos)
+                    {
+                        Temp.transform.localPosition = gridLayout.CellToLocalInterpolated(CellPos + new Vector3(0.5f, 0.5f, 0f));
+                        PrevPos = CellPos;
+                        FollowBuilding();
+                    }
                 }
             }
-        }
-        else if (Input.GetKeyDown(KeyCode.Space))
-        {
-            if (Temp.CanBePlaced())
+            else if (Input.GetKeyDown(KeyCode.Space))
             {
-                Temp.Place();
+                if (Temp.CanBePlaced())
+                {
+                    Temp.Place();
+                }
             }
-        } 
-        else if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            ClearArea();
-            Destroy(Temp.gameObject);
+            else if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                ClearArea();
+                Destroy(Temp.gameObject);
+            }
         }
     }
 
@@ -120,8 +127,11 @@ public class GridBuildingSystem : MonoBehaviour
 
     public void InitializeWithBuilding(GameObject building)
     {
-        Temp = Instantiate(building, Vector3.zero, Quaternion.identity).GetComponent<Building>();
-        FollowBuilding();
+        if (GameManager.GridIsActive)
+        {
+            Temp = Instantiate(building, Vector3.zero, Quaternion.identity).GetComponent<Building>();
+            FollowBuilding();
+        }
     }
 
     void ClearArea()
@@ -178,7 +188,7 @@ public class GridBuildingSystem : MonoBehaviour
     public void TakeArea(BoundsInt area)
     {
         SetTilesBlock(area, TileType.Empty, TempTilemap);
-        SetTilesBlock(area, TileType.White, MainTilemap);
+        SetTilesBlock(area, TileType.Red, MainTilemap);
     }
 
     #endregion
