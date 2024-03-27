@@ -5,6 +5,7 @@ GameObjects you will need:
 
 - 2D Sprite
 *This will be the mural itself.
+*Make sure it has a Box Collider 2D and Rigidbody 2D component attached to it.
 
 - Canvas
 - TextMeshProUGUI (child of Canvas)

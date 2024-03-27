@@ -41,6 +41,18 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: MainTilemap
+    uniqueID: 3247153485
+    locked: 0
+  - name: TempTilemap
+    uniqueID: 1377420515
+    locked: 0
   - name: OverPanel
     uniqueID: 492640345
     locked: 1
+  - name: Canvas
+    uniqueID: 1210184845
+    locked: 0
+  - name: Stars
+    uniqueID: 1650882041
+    locked: 0
