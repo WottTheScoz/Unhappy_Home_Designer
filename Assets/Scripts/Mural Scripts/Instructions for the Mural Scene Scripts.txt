@@ -1,0 +1,59 @@
+Instructions for the Mural Scene scripts.
+
+
+GameObjects you will need:
+
+- 2D Sprite
+*This will be the mural itself.
+
+- Canvas
+- TextMeshProUGUI (child of Canvas)
+- 2 Buttons (child of Canvas)
+*The text will display the timer.
+*One button will be the mute button, the other will be the skip button.
+
+- Empty GameObject
+*Make sure to attach an Audio Source component to this object, then attach your audio clip to the component.
+
+
+Script 1: ImageDragging.cs
+
+Attach this script to your mural GameObject.
+
+ Bound Offsetter X - Accounts for any offsets on the x-axis. Naturally set to 1.
+ Bound Offsetter Y - Accounts for any offsets on the y-axis. Naturally set to 1.
+
+Note: What these values do is adjust where the boundaries of the mural image are, preventing the player from accidently dragging it off-screen. They are multipliers, so decrease them (to a decimal between 1 and 0) to decrease the size of the boundaries if needed.
+
+Explanation: This script allows the player to drag the mural across the screen. It has been created under the assumption that the mural image will be bigger than the screen.
+
+
+Script 2: MuralTimer.cs
+
+Attach this script to either your TextMeshProUGUI object or an empty GameObject (your choice).
+
+ Text Object - Displays the timer. Attach your TextMeshProUGUI object to this.
+ Target Time - How long the timer lasts. Naturally set to 60 seconds. 
+ New Scene Name - The name of the scene you want to transition to. Make sure it is spelled correctly.
+
+Explanation: This script simply holds the timer and displays it. When the timer runs out, the game will transition to the scene of your choice.
+
+
+Script 3: MuralManager.cs
+
+
+Part I: The Script Itself
+
+Attach this script to your empty GameObject with an Audio Source component.
+
+ New Scene Name - Same as the one from MuralTimer.cs.
+ Audio - The audio clip that you want to mute.
+
+
+Part II: The Buttons
+
+Go to your Mute button and add an On Click() to it. Attach the object that holds MuralManager.cs to the On Click(), then look for MuralManager > Mute.
+
+Repeat the previous steps for your Skip button, but look for MuralManager > Skip.
+
+Explanation: This script handles all miscellaneous functionality for the Mural Scene. At the moment, it allows the player to mute the game's audio and skip the Mural Scene using buttons.
