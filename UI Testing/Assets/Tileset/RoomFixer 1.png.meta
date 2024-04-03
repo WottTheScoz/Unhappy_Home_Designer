@@ -1,0 +1,1125 @@
+fileFormatVersion: 2
+guid: 68e7671f7727c0846a6d2da4035c802b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RoomFixer 1_0
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 868
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08209283e16d284418403ff285f9babe
+      internalID: 1598423811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomFixer 1_1
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 804
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c4084708456f7547aa4e23ff8dcfe0f
+      internalID: -1017186143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomFixer 1_2
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 804
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 603b0dbd9dc89a24ab6758b3876271e0
+      internalID: -1635264859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomFixer 1_3
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 740
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f867374527c7094f9b99aa677132e5b
+      internalID: -488905737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomFixer 1_4
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 740
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27bd8806061f17145907e5721260b3bf
+      internalID: -839514006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomFixer 1_5
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 740
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca8be20ce4a2968429251da96e7dc68f
+      internalID: -719626210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomFixer 1_6
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 676
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf94e23e274e7204cb1eef503768e368
+      internalID: -224500191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomFixer 1_7
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 676
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b52762084ce81884bb225bee2ac86a6d
+      internalID: -1210358410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomFixer 1_8
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 676
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06217a833fed5354bac1f0b29f7dfdbf
+      internalID: 244471253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomFixer 1_9
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 612
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4b699701ef78544f80201fe65bcbf81
+      internalID: -1983911554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomFixer 1_10
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 612
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42594c60f08fef34d814b34610dd4b39
+      internalID: -1457526549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomFixer 1_11
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 612
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a9dd726ea00320478a470760cb085a9
+      internalID: -1304634784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomFixer 1_12
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 612
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55d55cf0dbafd1f4daaec98c72296759
+      internalID: 1142588730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomFixer 1_13
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 548
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f090db4de595f947ace486ff265e3bb
+      internalID: 648711153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomFixer 1_14
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 548
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d77eb8b0b435607408cc20dbc74b2037
+      internalID: 1156869022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomFixer 1_15
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 548
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f637f89653f109468cf9df99288f0aa
+      internalID: -184670303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomFixer 1_16
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 484
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0676ad3a06250cb4a814d85eb920372c
+      internalID: -1278675175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomFixer 1_17
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 484
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bd8fda34f1a6be428211ea7c05f490e
+      internalID: 658953735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomFixer 1_18
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 484
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e4ecf38233563d4b891d71524fb82d2
+      internalID: 121232176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomFixer 1_19
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 484
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0116f5e6c87193649a14243638ebd3ba
+      internalID: -1481420222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomFixer 1_20
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 420
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53d0981867fd4eb48b061683dca2bc04
+      internalID: -1008657398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomFixer 1_21
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 420
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b29234c747552246ada5bce58c7b015
+      internalID: 787897652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomFixer 1_22
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 420
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e501f61b0b7743547bb566e1b78f9887
+      internalID: 1951648846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomFixer 1_23
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 356
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3fbc71edf2af2443aeb5cb34c732350
+      internalID: 1006461089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomFixer 1_24
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 356
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a9eff2c1dcaf041beed9a0bd6c9118
+      internalID: -225994621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomFixer 1_25
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 356
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6ed81cc2d3d31d44b7587c09cde49c7
+      internalID: 845104691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomFixer 1_26
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 356
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c588b0e85ceddef46947256c24eb23b8
+      internalID: 1037472677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomFixer 1_27
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 292
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b1eb0df0e75de84e9da59edb02d9eb6
+      internalID: 1440281085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomFixer 1_28
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 292
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f5eafd51d49b8943968e12e47d191f7
+      internalID: -811631745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomFixer 1_29
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 292
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e32aaf904b8e4af48a369f469a69a80f
+      internalID: -333465229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomFixer 1_30
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 228
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc3a2d80b099c1443830eb5e64ba98d7
+      internalID: 1748102499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomFixer 1_31
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 228
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82066abf3ce622546a688541de76adac
+      internalID: -401245896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomFixer 1_32
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 164
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a3091bf38d4b7a4dafa35ad35901e60
+      internalID: 1560974008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      RoomFixer 1_0: 1598423811
+      RoomFixer 1_1: -1017186143
+      RoomFixer 1_10: -1457526549
+      RoomFixer 1_11: -1304634784
+      RoomFixer 1_12: 1142588730
+      RoomFixer 1_13: 648711153
+      RoomFixer 1_14: 1156869022
+      RoomFixer 1_15: -184670303
+      RoomFixer 1_16: -1278675175
+      RoomFixer 1_17: 658953735
+      RoomFixer 1_18: 121232176
+      RoomFixer 1_19: -1481420222
+      RoomFixer 1_2: -1635264859
+      RoomFixer 1_20: -1008657398
+      RoomFixer 1_21: 787897652
+      RoomFixer 1_22: 1951648846
+      RoomFixer 1_23: 1006461089
+      RoomFixer 1_24: -225994621
+      RoomFixer 1_25: 845104691
+      RoomFixer 1_26: 1037472677
+      RoomFixer 1_27: 1440281085
+      RoomFixer 1_28: -811631745
+      RoomFixer 1_29: -333465229
+      RoomFixer 1_3: -488905737
+      RoomFixer 1_30: 1748102499
+      RoomFixer 1_31: -401245896
+      RoomFixer 1_32: 1560974008
+      RoomFixer 1_4: -839514006
+      RoomFixer 1_5: -719626210
+      RoomFixer 1_6: -224500191
+      RoomFixer 1_7: -1210358410
+      RoomFixer 1_8: 244471253
+      RoomFixer 1_9: -1983911554
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

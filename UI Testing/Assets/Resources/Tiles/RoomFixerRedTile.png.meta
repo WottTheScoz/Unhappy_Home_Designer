@@ -1,0 +1,1035 @@
+fileFormatVersion: 2
+guid: caabdd6b6ff24aa4b80691adf0142812
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RoomFixerRedTile_0
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 806
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98caee4813a254c4d9a8cc31be3a3fbe
+      internalID: -505109058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomFixerRedTile_1
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 742
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f1e0b46ad7bf024587375017456235e
+      internalID: 686037755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomFixerRedTile_2
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 742
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c2d304cc898cfc44885783c4d2198d8
+      internalID: -2051543726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomFixerRedTile_3
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 678
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0a50f9ecf06b384c9e7be4260d72ef9
+      internalID: 777431909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomFixerRedTile_4
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 678
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 610c97de0b3fd594e948eee7f80f9270
+      internalID: 1762948391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomFixerRedTile_5
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 678
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b5817d0ef106aa40b75862d7410e3b1
+      internalID: 874622950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomFixerRedTile_6
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 614
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46ebd133947ca3e4b888422835d8c618
+      internalID: -34177191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomFixerRedTile_7
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 614
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 810f0b8b56a656440b0d5b4904443fc5
+      internalID: -1350201547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomFixerRedTile_8
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 614
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a98791dfd8b7eea49800227c60be709c
+      internalID: 383591700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomFixerRedTile_9
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 614
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eef945627d7c3749aeaceee9257b2df
+      internalID: 1617221618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomFixerRedTile_10
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 550
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6538d8bebf9c2894095b2a543021f9ad
+      internalID: 630805054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomFixerRedTile_11
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 550
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80cc0f16d7abbe84993477da3bbdb66d
+      internalID: 89414363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomFixerRedTile_12
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 550
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 958251142e08111458e293eb7d6f9b53
+      internalID: 468679281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomFixerRedTile_13
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 486
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35f9131df9ae2984987e30950a68195e
+      internalID: -1024066899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomFixerRedTile_14
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 486
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5debbc33d01f7af44b6960bf84acca92
+      internalID: -1095564176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomFixerRedTile_15
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 486
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c05d2b8c1c3075640b8f5ca2e7ae4992
+      internalID: -1318300149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomFixerRedTile_16
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 486
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 409e8640e0ef2de40a4bd55aaeacdd8d
+      internalID: -2060222528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomFixerRedTile_17
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 422
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d6bc5f12df43cf4fb49f9a4354be9af
+      internalID: 1813835201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomFixerRedTile_18
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 422
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf7f1de7258061428c23626013fd5ae
+      internalID: -1728507662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomFixerRedTile_19
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 422
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcc357e26327cf44bb9c2f48394cdb49
+      internalID: -1298515237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomFixerRedTile_20
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 358
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0808fbe60c619244292e33b80a8bcbae
+      internalID: 2078185994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomFixerRedTile_21
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 358
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92d892b93da1f8b41bae0d1bdcf97b64
+      internalID: -1361210754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomFixerRedTile_22
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 358
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 059aa595100927740b5827a1be1b49f5
+      internalID: 1418172514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomFixerRedTile_23
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 358
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 595845c5b4ddc514d9d2d2e3892531a0
+      internalID: 590669531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomFixerRedTile_24
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 294
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfb90fb949212984fa4f7da94950f1af
+      internalID: -1901692134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomFixerRedTile_25
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 294
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9f592d8ea542ed46a51e7a4e69b212e
+      internalID: 441826993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomFixerRedTile_26
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 294
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5e9869e1d1e61649b6ce2d19ada861b
+      internalID: -2052200022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomFixerRedTile_27
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 230
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a95b9736d28e8e499ff6fa9192a0161
+      internalID: -659318921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomFixerRedTile_28
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 230
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 465c5170680b46742b8cec717107aa77
+      internalID: 1292164335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomFixerRedTile_29
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 166
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6ac89751b5f2ad4fb1d851d295f6756
+      internalID: 724485545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      RoomFixerRedTile_0: -505109058
+      RoomFixerRedTile_1: 686037755
+      RoomFixerRedTile_10: 630805054
+      RoomFixerRedTile_11: 89414363
+      RoomFixerRedTile_12: 468679281
+      RoomFixerRedTile_13: -1024066899
+      RoomFixerRedTile_14: -1095564176
+      RoomFixerRedTile_15: -1318300149
+      RoomFixerRedTile_16: -2060222528
+      RoomFixerRedTile_17: 1813835201
+      RoomFixerRedTile_18: -1728507662
+      RoomFixerRedTile_19: -1298515237
+      RoomFixerRedTile_2: -2051543726
+      RoomFixerRedTile_20: 2078185994
+      RoomFixerRedTile_21: -1361210754
+      RoomFixerRedTile_22: 1418172514
+      RoomFixerRedTile_23: 590669531
+      RoomFixerRedTile_24: -1901692134
+      RoomFixerRedTile_25: 441826993
+      RoomFixerRedTile_26: -2052200022
+      RoomFixerRedTile_27: -659318921
+      RoomFixerRedTile_28: 1292164335
+      RoomFixerRedTile_29: 724485545
+      RoomFixerRedTile_3: 777431909
+      RoomFixerRedTile_4: 1762948391
+      RoomFixerRedTile_5: 874622950
+      RoomFixerRedTile_6: -34177191
+      RoomFixerRedTile_7: -1350201547
+      RoomFixerRedTile_8: 383591700
+      RoomFixerRedTile_9: 1617221618
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
