@@ -1,0 +1,1521 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.22f1 (b6c551784ba3) revision 11978065'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 65254 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker19
+-projectPath
+C:/Users/chris/UiRestorations/Unhappy_Home_Designer/UI Testing
+-logFile
+Logs/AssetImportWorker19.log
+-srvPort
+59589
+Successfully changed project path to: C:/Users/chris/UiRestorations/Unhappy_Home_Designer/UI Testing
+C:/Users/chris/UiRestorations/Unhappy_Home_Designer/UI Testing
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [20724] Host "[IP] 10.223.19.20 [Port] 0 [Flags] 2 [Guid] 468459987 [EditorId] 468459987 [Version] 1048832 [Id] WindowsEditor(7,Monolith) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [20724] Host "[IP] 10.223.19.20 [Port] 0 [Flags] 2 [Guid] 468459987 [EditorId] 468459987 [Version] 1048832 [Id] WindowsEditor(7,Monolith) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 58.79 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.22f1 (b6c551784ba3)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/chris/UiRestorations/Unhappy_Home_Designer/UI Testing/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4070 (ID=0x2786)
+    Vendor:   NVIDIA
+    VRAM:     12012 MB
+    Driver:   31.0.15.5186
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56040
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003629 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 55.11 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.403 seconds
+Domain Reload Profiling:
+	ReloadAssembly (403ms)
+		BeginReloadAssembly (53ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (292ms)
+			LoadAssemblies (51ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (66ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (17ms)
+			SetupLoadedEditorAssemblies (178ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (55ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (85ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004640 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\chris\UiRestorations\Unhappy_Home_Designer\UI Testing\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\chris\UiRestorations\Unhappy_Home_Designer\UI Testing\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 58.15 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.733 seconds
+Domain Reload Profiling:
+	ReloadAssembly (734ms)
+		BeginReloadAssembly (76ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (13ms)
+		EndReloadAssembly (591ms)
+			LoadAssemblies (59ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (159ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (292ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (58ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (147ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.09 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3755 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (56.5 KB). Loaded Objects now: 4215.
+Memory consumption went from 145.2 MB to 145.2 MB.
+Total: 1.988300 ms (FindLiveObjects: 0.241900 ms CreateObjectMapping: 0.055600 ms MarkObjects: 1.633300 ms  DeleteObjects: 0.056700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 176552.021405 seconds.
+  path: Assets/Tileset/RoomFixer_113.asset
+  artifactKey: Guid(1ea46f0d1e6e38447b7b1ef4642e1c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_113.asset using Guid(1ea46f0d1e6e38447b7b1ef4642e1c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b61f23de493cfbdae8a0fc226e64c17d') in 0.331630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tileset/RoomFixer_139.asset
+  artifactKey: Guid(fcf07d4ced6d77c449116f9c2c9249cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_139.asset using Guid(fcf07d4ced6d77c449116f9c2c9249cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '439ac7258e2cd5c20625cb619053c1f4') in 0.008844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tileset/RoomFixer_138.asset
+  artifactKey: Guid(ee18b3f1b632b9c4d9d2ede916e649b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_138.asset using Guid(ee18b3f1b632b9c4d9d2ede916e649b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd655a38263be3dade22713a5f33ba53') in 0.006959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Tileset/RoomFixer_145.asset
+  artifactKey: Guid(d1424807cba278b4185e9aeaf703df1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_145.asset using Guid(d1424807cba278b4185e9aeaf703df1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d55fa5e9762bce932cbe123110f81d4') in 0.006891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Tileset/RoomFixer_209.asset
+  artifactKey: Guid(9a2e80edb8e6cdb40bd6dc389c9f869b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_209.asset using Guid(9a2e80edb8e6cdb40bd6dc389c9f869b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f09372f05d66e939340e65446c9613de') in 0.014815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Tileset/RoomFixer_117.asset
+  artifactKey: Guid(4cc3ba78d3881ab449b8138ec044f6f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_117.asset using Guid(4cc3ba78d3881ab449b8138ec044f6f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90342fd852fc7ae25156266fafb07544') in 0.005716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.503905 seconds.
+  path: Assets/Tileset/RoomFixer_221.asset
+  artifactKey: Guid(53960319317cf2a43952843aef4fe75d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_221.asset using Guid(53960319317cf2a43952843aef4fe75d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d7991ca7bdc893c6cbdd99616333510') in 0.009792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Tileset/RoomFixer_256.asset
+  artifactKey: Guid(4e4f589dd41bce848af1ee1a8f2e0490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_256.asset using Guid(4e4f589dd41bce848af1ee1a8f2e0490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09d38ad670a2b6567fc70a54d922eef4') in 0.014226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012742 seconds.
+  path: Assets/Tileset/RoomFixer_261.asset
+  artifactKey: Guid(86824def63765ac47bd56eba593ed9b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_261.asset using Guid(86824def63765ac47bd56eba593ed9b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ef9c287ba5ac730c84d952f71aac024') in 0.009590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Tileset/RoomFixer_269.asset
+  artifactKey: Guid(097ec6ee84f59684fb2ad200eae87aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_269.asset using Guid(097ec6ee84f59684fb2ad200eae87aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a859c728853df804f6756d18e5e90718') in 0.007314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021729 seconds.
+  path: Assets/Tileset/RoomFixer_303.asset
+  artifactKey: Guid(4e3d9c21f761f4043ac3cb2a6b429d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_303.asset using Guid(4e3d9c21f761f4043ac3cb2a6b429d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '395043a35fc9871675499322dfe139a9') in 0.008699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Tileset/RoomFixer_316.asset
+  artifactKey: Guid(18c4a3683296aa647b35b13ae6ee0de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_316.asset using Guid(18c4a3683296aa647b35b13ae6ee0de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcca9d7febe5a99d8e0a319cdfa5a6bb') in 0.009037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.077942 seconds.
+  path: Assets/Tileset/RoomFixer_321.asset
+  artifactKey: Guid(b90dd29a13728114d8a6cfba3ba77e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_321.asset using Guid(b90dd29a13728114d8a6cfba3ba77e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5635e9af0a56fb753b2cd8f361543342') in 0.008560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Tileset/RoomFixer_353.asset
+  artifactKey: Guid(eb8940f8b66fd7947ab7da541799ce4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_353.asset using Guid(eb8940f8b66fd7947ab7da541799ce4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc1f01969ff0b3c5bd1e509f909dc853') in 0.008532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.097145 seconds.
+  path: Assets/Tileset/RoomFixer_365.asset
+  artifactKey: Guid(56ee1ac18f2436e488fd4bda95433549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_365.asset using Guid(56ee1ac18f2436e488fd4bda95433549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2fc27eba05ffeb07e7e8798f605f05f') in 0.012697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Tileset/RoomFixer_369.asset
+  artifactKey: Guid(4d8cf69a9e88ba942ac6020d68d838fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_369.asset using Guid(4d8cf69a9e88ba942ac6020d68d838fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fd47cc6a1a107ab14d5929e46b06002') in 0.010591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.894604 seconds.
+  path: Assets/Tileset/RoomFixer_411.asset
+  artifactKey: Guid(b4c9188b9d703ac488b8ffc2cf5285b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_411.asset using Guid(b4c9188b9d703ac488b8ffc2cf5285b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cd632ccdad3b43fa0557ec658a598ae') in 0.027946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Tileset/RoomFixer_424.asset
+  artifactKey: Guid(0b05de7fd66a6ff48a340d5bb82bb539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_424.asset using Guid(0b05de7fd66a6ff48a340d5bb82bb539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '485ca749bf55a8817544e5db2a248d76') in 0.009640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001244 seconds.
+  path: Assets/Tileset/RoomFixer_428.asset
+  artifactKey: Guid(dfb441ebb6a1d5c4bb68a0127d8a647a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_428.asset using Guid(dfb441ebb6a1d5c4bb68a0127d8a647a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a56c06c9408f22906b7c09f05b293b0') in 0.013524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tileset/RoomFixer_432.asset
+  artifactKey: Guid(0bb9ac9095309e14b8e3772a848f9942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_432.asset using Guid(0bb9ac9095309e14b8e3772a848f9942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f42c29fdf884dfd307d9f68d177f6b14') in 0.008971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Tileset/RoomFixer_431.asset
+  artifactKey: Guid(d924d3debc7730842b8e53e0baaa5689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_431.asset using Guid(d924d3debc7730842b8e53e0baaa5689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7508bf2eee14eb2abd280dcce56afee') in 0.009530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.209649 seconds.
+  path: Assets/Tileset/RoomFixer_477.asset
+  artifactKey: Guid(067f7939ad9496745a991e3e071c3ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_477.asset using Guid(067f7939ad9496745a991e3e071c3ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66432ba936ce884bd819331d1c99e91e') in 0.014481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Tileset/RoomFixer_487.asset
+  artifactKey: Guid(dfb773fbed589a3499f96e2ec6d07b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_487.asset using Guid(dfb773fbed589a3499f96e2ec6d07b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf4b7bf859d57cc34e192a0931aadfdb') in 0.010323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tileset/RoomFixer_488.asset
+  artifactKey: Guid(12200986034a93649831378380f30753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_488.asset using Guid(12200986034a93649831378380f30753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb36286901402b1013f00811a340d22a') in 0.008796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tileset/RoomFixer_556.asset
+  artifactKey: Guid(bda11802447a6b2499b8893a322f7ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_556.asset using Guid(bda11802447a6b2499b8893a322f7ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dc08746d1daf81bcf4230b5bb214ffb') in 0.015970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Tileset/RoomFixer_532.asset
+  artifactKey: Guid(12f6b457722b56747ba761f6961a1110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_532.asset using Guid(12f6b457722b56747ba761f6961a1110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd59fe58f8d3305cd6e7c974e448b8b24') in 0.013666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tileset/RoomFixer_683.asset
+  artifactKey: Guid(cab9b4b80ac65c349872e2272eab88bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_683.asset using Guid(cab9b4b80ac65c349872e2272eab88bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '973b8aeaaa542e2b04d8b134df1e96ef') in 0.012242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tileset/RoomFixer_607.asset
+  artifactKey: Guid(103165476716d604ca5c2642229ca5eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_607.asset using Guid(103165476716d604ca5c2642229ca5eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dabf14f985a0e671c62cb740ac2ae23f') in 0.010618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Tileset/RoomFixer_744.asset
+  artifactKey: Guid(35f963cd30b55244b8f3a0b74dde982b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_744.asset using Guid(35f963cd30b55244b8f3a0b74dde982b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cac5d476dcde0a5c2c04b3684faf417d') in 0.009995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Tileset/RoomFixer_756.asset
+  artifactKey: Guid(b848826009cc30345b4c4ce50fe7b26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_756.asset using Guid(b848826009cc30345b4c4ce50fe7b26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26845e5af2be5567140f22ee2162b31b') in 0.010450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Tileset/RoomFixer_626.asset
+  artifactKey: Guid(718f32718fcadd340b6c02d678b06e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_626.asset using Guid(718f32718fcadd340b6c02d678b06e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2dab41451b42aa68ca7bbd22040a68f') in 0.017069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Tileset/RoomFixer_549.asset
+  artifactKey: Guid(df57a3cb129321147988d6a9d056ed7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_549.asset using Guid(df57a3cb129321147988d6a9d056ed7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ee4ab3aac0a3b835f4cf9a7eebc37d0') in 0.009550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Tileset/RoomFixer_762.asset
+  artifactKey: Guid(0d60f6cc614899e49879f79f28d9b3e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_762.asset using Guid(0d60f6cc614899e49879f79f28d9b3e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '259c95b4432130a3c328f3df428eec7d') in 0.014449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Tileset/RoomFixer_686.asset
+  artifactKey: Guid(e8be31241c45d214f8ffcb14ba15c304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_686.asset using Guid(e8be31241c45d214f8ffcb14ba15c304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dd064ea433f395604024ebaf35ffa06') in 0.008459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Tileset/RoomFixer_611.asset
+  artifactKey: Guid(c91dc56bebdd83b428683b637b1d85dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_611.asset using Guid(c91dc56bebdd83b428683b637b1d85dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e3235a6ed1665249f43c563e9ddeef2') in 0.015512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tileset/RoomFixer_599.asset
+  artifactKey: Guid(eea21e74fcb60fe4f8159f40f948bfce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_599.asset using Guid(eea21e74fcb60fe4f8159f40f948bfce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f4e1a5de9fb90ca88b0bd9cb3a04efc') in 0.013396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Tileset/RoomFixer_602.asset
+  artifactKey: Guid(d7143ff1ee33d634ba882d3882c71f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_602.asset using Guid(d7143ff1ee33d634ba882d3882c71f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bffffcbdc93b989e5d4b727b4412058') in 0.009059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Tileset/RoomFixer_678.asset
+  artifactKey: Guid(6ce914e4494bf1f478a5a58235791de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_678.asset using Guid(6ce914e4494bf1f478a5a58235791de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdba269448f8c86e6d9d6420c71df69d') in 0.011150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Tileset/RoomFixer_753.asset
+  artifactKey: Guid(d50d8a0da26eeb441a80a180ca3f449f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_753.asset using Guid(d50d8a0da26eeb441a80a180ca3f449f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eac7b9398209b51a3ca0a859bf2bf71f') in 0.008688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Tileset/RoomFixer_664.asset
+  artifactKey: Guid(5d195c6c5619b01429d95988f9585b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_664.asset using Guid(5d195c6c5619b01429d95988f9585b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b75f06635474ddc0d9b89a1a1511626') in 0.012505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tileset/RoomFixer_542.asset
+  artifactKey: Guid(72e2d511135ba2f448668ee2cafb21af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_542.asset using Guid(72e2d511135ba2f448668ee2cafb21af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31e6e0b893f9efd3eba83cbd2d277497') in 0.008741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tileset/RoomFixer_810.asset
+  artifactKey: Guid(061b21c207f9fdd44be59eff503e36fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_810.asset using Guid(061b21c207f9fdd44be59eff503e36fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2605dfb9a2abd82c1632c608f9d59ba8') in 0.010417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Tileset/RoomFixer_732.asset
+  artifactKey: Guid(e4c7b2bff853daa4286bfd96d2b5eef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_732.asset using Guid(e4c7b2bff853daa4286bfd96d2b5eef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d162d9d9456c1999b22170e3ca76074') in 0.006808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005882 seconds.
+  path: Assets/Tileset/RoomFixer_824.asset
+  artifactKey: Guid(50fca1442726b3040b10adbac4f03f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_824.asset using Guid(50fca1442726b3040b10adbac4f03f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b172447fd18ab8ac131c48d7127aac10') in 0.008800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Tileset/RoomFixer_871.asset
+  artifactKey: Guid(402a6e16885240c4e8a483fd8d41e5f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_871.asset using Guid(402a6e16885240c4e8a483fd8d41e5f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79cf84b537fb505c8853c23bc50a495f') in 0.007666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Tileset/RoomFixer_874.asset
+  artifactKey: Guid(86b7589b385eebe40a0877bd563d6faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_874.asset using Guid(86b7589b385eebe40a0877bd563d6faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e50a76a873f84685f3c9c8360fa70386') in 0.007958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Tileset/RoomFixer_888.asset
+  artifactKey: Guid(0631a30f679d89440997ad94f6519fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_888.asset using Guid(0631a30f679d89440997ad94f6519fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e6f49f3fc9dabd1a6ab203e144063e7') in 0.007947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Tileset/RoomFixer_891.asset
+  artifactKey: Guid(25fc8e2f2d6c92b49b88c86d47109aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_891.asset using Guid(25fc8e2f2d6c92b49b88c86d47109aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd99d4d300d85f9435d4398a8d5d2cc1d') in 0.006628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Tileset/RoomFixer_899.asset
+  artifactKey: Guid(a8c11d22b264a5942b42db38cbae7948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_899.asset using Guid(a8c11d22b264a5942b42db38cbae7948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '166d09ac501f73717016d1f74f80d509') in 0.005576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Tileset/RoomFixer_903.asset
+  artifactKey: Guid(5305be094f3ec1746bd2f8b4418a2e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_903.asset using Guid(5305be094f3ec1746bd2f8b4418a2e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '419e518468bb0850d44647bfc739e9d1') in 0.005103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.323649 seconds.
+  path: Assets/Tileset/RoomFixer_946.asset
+  artifactKey: Guid(2b80485e46bb9914285dff285f70dabd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_946.asset using Guid(2b80485e46bb9914285dff285f70dabd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41fce753b2203fc11374b6a9e56b37a4') in 0.009442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Tileset/RoomFixer_958.asset
+  artifactKey: Guid(132e939937e07b14a9a22f13f1f1a865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_958.asset using Guid(132e939937e07b14a9a22f13f1f1a865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c9c55f01a7376ddc8ca3b83e7a62bf9') in 0.022147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Tileset/RoomFixer_1009.asset
+  artifactKey: Guid(dd48edce0ef3d96439ae32bd0ded58af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_1009.asset using Guid(dd48edce0ef3d96439ae32bd0ded58af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9819bd6b339f5aa7d137f6d80aeed8c1') in 0.006229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Tileset/RoomFixer_1014.asset
+  artifactKey: Guid(bbdd9101cbac4a54da5651f023280a23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_1014.asset using Guid(bbdd9101cbac4a54da5651f023280a23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f022c01be9770c579403627f041a4351') in 0.006518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Tileset/RoomFixer_1027.asset
+  artifactKey: Guid(db3f42eae387d924fb649f4042585c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_1027.asset using Guid(db3f42eae387d924fb649f4042585c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f18f68bb3f01751c294a454c13acd5fe') in 0.007202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Tileset/RoomFixer_967.asset
+  artifactKey: Guid(d9af0031a8fc6874a91d6b7890f98d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_967.asset using Guid(d9af0031a8fc6874a91d6b7890f98d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c11c8ab11a1ea128a1e0cd54e9f2ab34') in 0.006311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Tileset/RoomFixer_1079.asset
+  artifactKey: Guid(a874748aed6f9e54dbf1fba2651c1244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_1079.asset using Guid(a874748aed6f9e54dbf1fba2651c1244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1744381600eef8d910c952292e97691a') in 0.005235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Tileset/RoomFixer_1091.asset
+  artifactKey: Guid(0e49d7e13c246014995d8e74e373fdcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_1091.asset using Guid(0e49d7e13c246014995d8e74e373fdcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d0da8112bae3c0f652789c607e4bbe1') in 0.006904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Tileset/RoomFixer_1080.asset
+  artifactKey: Guid(dfcb6aeb885ea9f4fb4fd2b05b17c798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_1080.asset using Guid(dfcb6aeb885ea9f4fb4fd2b05b17c798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e180336a9725760bc715d75fa595dcea') in 0.006719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Tileset/RoomFixer_1150.asset
+  artifactKey: Guid(1c458a931ca989c49a8ae183b7511dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_1150.asset using Guid(1c458a931ca989c49a8ae183b7511dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d109cd397917ea0a4ca019e2327a7f7') in 0.006037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tileset/RoomFixer_1111.asset
+  artifactKey: Guid(986de511672d4314f9294cf3c2329562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_1111.asset using Guid(986de511672d4314f9294cf3c2329562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48ec0264dae34ea0e58b50105cd84a58') in 0.008281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Tileset/RoomFixer_1097.asset
+  artifactKey: Guid(51e849f546579984eaa5015ba715a101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_1097.asset using Guid(51e849f546579984eaa5015ba715a101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ffe7ebf2551c29152c2fdb3f8336a4c') in 0.007478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Tileset/RoomFixer_1035.asset
+  artifactKey: Guid(d6db48a9edd14c74a8dd4c3e4a0aa5a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_1035.asset using Guid(d6db48a9edd14c74a8dd4c3e4a0aa5a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1770a8251702bf00430447ef4e5a6e0') in 0.006754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Tileset/RoomFixer_1081.asset
+  artifactKey: Guid(4a85d7d9d09f0e74bbf8dbea60231697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_1081.asset using Guid(4a85d7d9d09f0e74bbf8dbea60231697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '918ce3953046b59319d9c44507811da8') in 0.007201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.174577 seconds.
+  path: Assets/Tileset/RoomFixer_1156.asset
+  artifactKey: Guid(5afdc2e8256b4d846b340375d464df6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_1156.asset using Guid(5afdc2e8256b4d846b340375d464df6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '759990d9d9acc3d3bc96afba634bb2d9') in 0.023240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Tileset/RoomFixer_1221.asset
+  artifactKey: Guid(426b32f6d0123314a8f8144ba3ff769e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_1221.asset using Guid(426b32f6d0123314a8f8144ba3ff769e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eb4c193ec9906a96269d3ef5172a46a') in 0.007457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Tileset/RoomFixer_1175.asset
+  artifactKey: Guid(920255731c9f9f54a8c78c90123aaefb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_1175.asset using Guid(920255731c9f9f54a8c78c90123aaefb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd766151201f6af353607c3a4bdf70fce') in 0.006112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Tileset/RoomFixer_1224.asset
+  artifactKey: Guid(fea17dbd169bc0d4887d5fafc90cd6af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_1224.asset using Guid(fea17dbd169bc0d4887d5fafc90cd6af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ade87add7d098cea03c39337b98aae6') in 0.006580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Tileset/RoomFixer_1165.asset
+  artifactKey: Guid(ee67c6f08c6520f488abd9f11299a486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_1165.asset using Guid(ee67c6f08c6520f488abd9f11299a486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b77158e2897fab235a9a17696b6aae3a') in 0.005232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Tileset/RoomFixer_1241.asset
+  artifactKey: Guid(d48c82476d81ce848abd63d9d5786687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_1241.asset using Guid(d48c82476d81ce848abd63d9d5786687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b040a6a69f73d48908e31a7eca9f5126') in 0.005742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Tileset/RoomFixer_1293.asset
+  artifactKey: Guid(74b011b54bf921146bfb43552725c284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_1293.asset using Guid(74b011b54bf921146bfb43552725c284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28a3a700c0cf1d34894831b9fac40832') in 0.007015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Tileset/RoomFixer_1358.asset
+  artifactKey: Guid(400a5f136967dc048ac21a56bb33bdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_1358.asset using Guid(400a5f136967dc048ac21a56bb33bdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3c3d5b79ef7fae9f404761adc88f0e8') in 0.007313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Tileset/RoomFixer_1245.asset
+  artifactKey: Guid(94b7c1096f8ee2643a3f27935e200291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_1245.asset using Guid(94b7c1096f8ee2643a3f27935e200291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e78aea46a5268ceddb202205a02b8217') in 0.007950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Tileset/RoomFixer_1369.asset
+  artifactKey: Guid(eae0cab79c830a54da6482b6a6a13dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_1369.asset using Guid(eae0cab79c830a54da6482b6a6a13dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f78433f942f825e69be6a293386dcd72') in 0.006889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Tileset/RoomFixer_1295.asset
+  artifactKey: Guid(f587d102add18ea4b98220daf9464ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_1295.asset using Guid(f587d102add18ea4b98220daf9464ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71708e9ee9da0200fe8ab1f1f5f049cb') in 0.006652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Tileset/RoomFixer_1424.asset
+  artifactKey: Guid(a5604cbd2ecb6d34eb4a5af6f66b6b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_1424.asset using Guid(a5604cbd2ecb6d34eb4a5af6f66b6b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4627e778f65c24ffed1694f6de5046c6') in 0.007018 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Tileset/RoomFixer_1423.asset
+  artifactKey: Guid(701aabcf04a683747b9200b5635424d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_1423.asset using Guid(701aabcf04a683747b9200b5635424d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adf7d136795ed96046784650a57b22e0') in 0.005525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Tileset/RoomFixer_1378.asset
+  artifactKey: Guid(1fdd13ecac7df2840bd1b64bf3e460bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_1378.asset using Guid(1fdd13ecac7df2840bd1b64bf3e460bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47418e6803ac73accae675483e994c43') in 0.005739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Tileset/RoomFixer_1315.asset
+  artifactKey: Guid(445733cd370201e48b42fce14a1508a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_1315.asset using Guid(445733cd370201e48b42fce14a1508a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23cdf6c04dc4a5b7b45d60927bf5e082') in 0.006293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Tileset/RoomFixer_1287.asset
+  artifactKey: Guid(8a96472f28cd9544a84b50bce7abb71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_1287.asset using Guid(8a96472f28cd9544a84b50bce7abb71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f04786cf3db2a5779bdc68014c5003d7') in 0.007166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Tileset/RoomFixer_1223.asset
+  artifactKey: Guid(d3f8866e00477a04381ab245fc8ee357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_1223.asset using Guid(d3f8866e00477a04381ab245fc8ee357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9b3e6a815067e67c17daa1da2cad6fb') in 0.007297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Tileset/RoomFixer_1371.asset
+  artifactKey: Guid(ee8af6f524d2efa48bc398757577b306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_1371.asset using Guid(ee8af6f524d2efa48bc398757577b306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33e530229770c2de39207b209b34894f') in 0.005269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Tileset/RoomFixer_1235.asset
+  artifactKey: Guid(26ecc623cd0c9d54390c1957f74af312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_1235.asset using Guid(26ecc623cd0c9d54390c1957f74af312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03e78298f0b340e1215b6faf4a157abc') in 0.007510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.145192 seconds.
+  path: Assets/Tileset/RoomFixer_1436.asset
+  artifactKey: Guid(053456a66eaa0674a9e40de8cfd3fcd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_1436.asset using Guid(053456a66eaa0674a9e40de8cfd3fcd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f38751b34ed1265c9ae4a37165044059') in 0.007634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Tileset/RoomFixer_1444.asset
+  artifactKey: Guid(a9cf304c6f03f0c42887bce6afe2d11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_1444.asset using Guid(a9cf304c6f03f0c42887bce6afe2d11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff31bc4c83404f4553607991bd9948c8') in 0.014823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Tileset/RoomFixer_1507.asset
+  artifactKey: Guid(d0c2c618893c3cd42affb9222803dc6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_1507.asset using Guid(d0c2c618893c3cd42affb9222803dc6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ac815cdca93495505830e551a1d190f') in 0.007100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Tileset/RoomFixer_1450.asset
+  artifactKey: Guid(597e3f65848944349b3eb2e0e408257c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_1450.asset using Guid(597e3f65848944349b3eb2e0e408257c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1986f5834fdd3aac0abfb2563577ce5') in 0.007913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Tileset/RoomFixer_1491.asset
+  artifactKey: Guid(481331b47669b154db59379afe322b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_1491.asset using Guid(481331b47669b154db59379afe322b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ecfe02f7fe1ce3bcaa82326f64f980d') in 0.008282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Tileset/RoomFixer_1594.asset
+  artifactKey: Guid(8f4b3bdb0b79cae47befca1c4e7bbe3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_1594.asset using Guid(8f4b3bdb0b79cae47befca1c4e7bbe3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af96f8a8cea78bd0187898f0d85458d2') in 0.009138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tileset/RoomFixer_1588.asset
+  artifactKey: Guid(20db872ffebf22745a97ca74da0cd810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_1588.asset using Guid(20db872ffebf22745a97ca74da0cd810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a1d10d1e63f793f0ba1b741609684dc') in 0.007045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tileset/RoomFixer_1517.asset
+  artifactKey: Guid(ccb53a373317aad48bd834d24ef22e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_1517.asset using Guid(ccb53a373317aad48bd834d24ef22e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83e34f04205f299373bf702ee05fbf8d') in 0.006269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Tileset/RoomFixer_1701.asset
+  artifactKey: Guid(534edec8a61f41444a6a838bdfaf5cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_1701.asset using Guid(534edec8a61f41444a6a838bdfaf5cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cd2f8499d8ff534b66aded9a60290c5') in 0.008876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Tileset/RoomFixer_1727.asset
+  artifactKey: Guid(01361232f3b659245a8868b83c945832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_1727.asset using Guid(01361232f3b659245a8868b83c945832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b42cdd1b9c582f33e4c291cc85b30879') in 0.006023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Tileset/RoomFixer_1649.asset
+  artifactKey: Guid(99aa8fe4c92c83046be0d8d06e8a4184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_1649.asset using Guid(99aa8fe4c92c83046be0d8d06e8a4184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ef4ce6ab36b00661b5c21decc504cbf') in 0.007195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Tileset/RoomFixer_1784.asset
+  artifactKey: Guid(22b9cd5aee7b9834a863c65e7734f0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_1784.asset using Guid(22b9cd5aee7b9834a863c65e7734f0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d703144324e95f108ff96c7d1d1d96f') in 0.006384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tileset/RoomFixer_1864.asset
+  artifactKey: Guid(a24116f96017ed1409ab53fe6e53b948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_1864.asset using Guid(a24116f96017ed1409ab53fe6e53b948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13fa380d1ab4b462b030a9ed6c23373a') in 0.008055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Tileset/RoomFixer_1575.asset
+  artifactKey: Guid(eb6ecc6e296e1544d80bbc0aa2e24049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_1575.asset using Guid(eb6ecc6e296e1544d80bbc0aa2e24049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6edae0089acd8d151eef32303e92be8e') in 0.008103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tileset/RoomFixer_1779.asset
+  artifactKey: Guid(4c9edbd1206e8854e82cf69af50e5a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_1779.asset using Guid(4c9edbd1206e8854e82cf69af50e5a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91821086b334305c50d85888483c42d0') in 0.007409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Tileset/RoomFixer_1445.asset
+  artifactKey: Guid(57cac794e9f166c4bafb4366ccd67b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_1445.asset using Guid(57cac794e9f166c4bafb4366ccd67b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37717d016909dfa07e35cd0fdfcc5888') in 0.009138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Tileset/RoomFixer_1493.asset
+  artifactKey: Guid(2ad4388924c78f144834c57e79bad290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_1493.asset using Guid(2ad4388924c78f144834c57e79bad290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '925a0d95d537f33ca23c44412da7aa4e') in 0.004937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tileset/RoomFixer_1927.asset
+  artifactKey: Guid(3f159af2d89716d4cbaf5932e5e16223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_1927.asset using Guid(3f159af2d89716d4cbaf5932e5e16223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf86ff2a52f24bf0e43c0e8f1766c540') in 0.022489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Tileset/RoomFixer_1710.asset
+  artifactKey: Guid(85a44dfe40e89ed46ae9c7a98158ed82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_1710.asset using Guid(85a44dfe40e89ed46ae9c7a98158ed82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef5367affd40ceb5aa191a86296ed266') in 0.007729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Tileset/RoomFixer_1787.asset
+  artifactKey: Guid(37b6c40de56082b42b984cda98910684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_1787.asset using Guid(37b6c40de56082b42b984cda98910684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec1fea53c5173efa1774026e6a9ed576') in 0.007153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Tileset/RoomFixer_1846.asset
+  artifactKey: Guid(6c63abad95fcbbd469830d459200e114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_1846.asset using Guid(6c63abad95fcbbd469830d459200e114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9702a3d52366df40ff3b399e9541c5cf') in 0.008286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Tileset/RoomFixer_1563.asset
+  artifactKey: Guid(3601bd74215d60c42af9cd4e7970174a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_1563.asset using Guid(3601bd74215d60c42af9cd4e7970174a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb939ebe3c0d9d4b48c9a1e8c1cd9637') in 0.009954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Tileset/RoomFixer_1841.asset
+  artifactKey: Guid(8bd9b9b69b9d6d049b2f5cfd7efaf712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_1841.asset using Guid(8bd9b9b69b9d6d049b2f5cfd7efaf712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '283c91a3f761e389ac553c6d7879cdeb') in 0.008733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Tileset/RoomFixer_1926.asset
+  artifactKey: Guid(c047b7fd23d93d74ea9000dcd3b42ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_1926.asset using Guid(c047b7fd23d93d74ea9000dcd3b42ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '685a98c538570f2d1bd2fbf878b18b05') in 0.007548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Tileset/RoomFixer_1921.asset
+  artifactKey: Guid(e8d4abc3cdafe074795ea5ca6daf2060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_1921.asset using Guid(e8d4abc3cdafe074795ea5ca6daf2060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fe4c3372c0ca2194203e48419bacfbe') in 0.006703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tileset/RoomFixer_1859.asset
+  artifactKey: Guid(5092c92d88a9eeb40891257e16e37076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_1859.asset using Guid(5092c92d88a9eeb40891257e16e37076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88c7c0acbb48afd210a32eb182d44e24') in 0.007224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tileset/RoomFixer_1935.asset
+  artifactKey: Guid(d1344db501fbacb4ab1e77202f5a566d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_1935.asset using Guid(d1344db501fbacb4ab1e77202f5a566d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd64d215a51c3db955b12bdb9873d97a') in 0.006589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Tileset/RoomFixer_1728.asset
+  artifactKey: Guid(d6ebb9bd60905514db4a334be9c65d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_1728.asset using Guid(d6ebb9bd60905514db4a334be9c65d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2818e2c78205496caacdc319d3d93249') in 0.007446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Tileset/RoomFixer_1910.asset
+  artifactKey: Guid(39ccd49194402534daba2e39c5cd84fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_1910.asset using Guid(39ccd49194402534daba2e39c5cd84fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00e78698246bffe45e7a4d7f03c64c3f') in 0.007457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tileset/RoomFixer_1981.asset
+  artifactKey: Guid(e666a9126fa2b074081c91d862f8e8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_1981.asset using Guid(e666a9126fa2b074081c91d862f8e8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fa3e211e6de6306547edb39ba4aadbb') in 0.007844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tileset/RoomFixer_1975.asset
+  artifactKey: Guid(1e944bac1fe66d041bee98bc05949c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_1975.asset using Guid(1e944bac1fe66d041bee98bc05949c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5381648323ffea12bf5f3b95131b51c8') in 0.009168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Tileset/RoomFixer_2057.asset
+  artifactKey: Guid(57e0d5f57b73017478c906431a4f6e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_2057.asset using Guid(57e0d5f57b73017478c906431a4f6e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80f199726fcb18dde634e8111a3c372e') in 0.008759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tileset/RoomFixer_2005.asset
+  artifactKey: Guid(c113e2bd334943f439551513647adae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_2005.asset using Guid(c113e2bd334943f439551513647adae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ad9b0803b49f0c4cf1f1d49334532df') in 0.006294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Tileset/RoomFixer_2126.asset
+  artifactKey: Guid(083a91cd2cca5c8439136ebdf448c2f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_2126.asset using Guid(083a91cd2cca5c8439136ebdf448c2f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e646fb8b38b90200927f693c71c60412') in 0.007630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Tileset/RoomFixer_2127.asset
+  artifactKey: Guid(bdfffc93c6ba305449193c72d0fed574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_2127.asset using Guid(bdfffc93c6ba305449193c72d0fed574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2bc346da3e7fc48fa75e112397ee01f') in 0.007692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Tileset/RoomFixer_2062.asset
+  artifactKey: Guid(25d39f0b708a7cf438efb4f7dfd0398a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_2062.asset using Guid(25d39f0b708a7cf438efb4f7dfd0398a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a7a5b7b55f6115ee5710584d2e073cc') in 0.006133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tileset/RoomFixer_2189.asset
+  artifactKey: Guid(4379c9a457ba027449b7bb2fd9f95115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_2189.asset using Guid(4379c9a457ba027449b7bb2fd9f95115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee7026e5d0f68c982d5da958942405b3') in 0.007535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tileset/RoomFixer_2201.asset
+  artifactKey: Guid(1130ea444cad1664ba4cacc539ae000a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_2201.asset using Guid(1130ea444cad1664ba4cacc539ae000a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eca6177e28fda1beb2a31b511fd044a2') in 0.006649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Tileset/RoomFixer_2132.asset
+  artifactKey: Guid(4ff496bc7d4c5064f85becda818b7d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_2132.asset using Guid(4ff496bc7d4c5064f85becda818b7d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86da511b62ad46203f20a845a1026406') in 0.007057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Tileset/RoomFixer_2251.asset
+  artifactKey: Guid(b10418b6833ab984f9fe691fc13f94a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_2251.asset using Guid(b10418b6833ab984f9fe691fc13f94a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '856d683f84f5ebc7b4a8b4e2cdeca88b') in 0.008257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tileset/RoomFixer_2270.asset
+  artifactKey: Guid(1fde7b4aa3cf07f4f9d45501ba46c06e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_2270.asset using Guid(1fde7b4aa3cf07f4f9d45501ba46c06e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7b74fc1233ef53987efa1c0431bcdc1') in 0.007918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Tileset/RoomFixer_2268.asset
+  artifactKey: Guid(d75aacfc189ce884a9dcc46b14e30089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_2268.asset using Guid(d75aacfc189ce884a9dcc46b14e30089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1dd2a839b95f7e4eec90a8d5c1cfcdd') in 0.008003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Tileset/RoomFixer_2319.asset
+  artifactKey: Guid(27a896eacc0808543851de89ac2ea627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_2319.asset using Guid(27a896eacc0808543851de89ac2ea627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a803f50ddc8f3bb777198938c03ac6fe') in 0.007281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Tileset/RoomFixer_2279.asset
+  artifactKey: Guid(bd3fa14476018e447a4c38db76d5607b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_2279.asset using Guid(bd3fa14476018e447a4c38db76d5607b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91bcd416c22b47b286fb519b7d8b3ebb') in 0.008097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Tileset/RoomFixer_2253.asset
+  artifactKey: Guid(b67f9a03fbc26a5498b3eaa4a5a58620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_2253.asset using Guid(b67f9a03fbc26a5498b3eaa4a5a58620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca940da543eead4ebd34853d6c9a5256') in 0.007812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Tileset/RoomFixer_2282.asset
+  artifactKey: Guid(1de272c7f189a1144a65e961b43ac2dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_2282.asset using Guid(1de272c7f189a1144a65e961b43ac2dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0f5a2ecdd9a49c8ffcdd671e2b0fd8c') in 0.007609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tileset/RoomFixer_2076.asset
+  artifactKey: Guid(31b73d0de72a8c84a88eefc2a5e59449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_2076.asset using Guid(31b73d0de72a8c84a88eefc2a5e59449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3089808e5c9448431ceb51f176ff4e1e') in 0.007382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Tileset/RoomFixer_2208.asset
+  artifactKey: Guid(2e0f358a0f9cfd048b87fc4b9c9f2837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_2208.asset using Guid(2e0f358a0f9cfd048b87fc4b9c9f2837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6c83ec2bb60046d76ec11f286a84382') in 0.008028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Tileset/RoomFixer_1994.asset
+  artifactKey: Guid(58400d5477be99344ac8d93b22c83fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_1994.asset using Guid(58400d5477be99344ac8d93b22c83fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '439abceb60ea9c83c51bb2f63760c41a') in 0.007138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Tileset/RoomFixer_2001.asset
+  artifactKey: Guid(45320703f04c15546b7564a50882a14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_2001.asset using Guid(45320703f04c15546b7564a50882a14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faa01f1f7ec71f9ec8c60e787018d7a1') in 0.006928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Tileset/RoomFixer_1858.asset
+  artifactKey: Guid(c180ddb76826a9240b19563cd3224a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_1858.asset using Guid(c180ddb76826a9240b19563cd3224a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c44d7254dd997e6b8981b6ae3a26e77') in 0.006246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tileset/RoomFixer_1976.asset
+  artifactKey: Guid(28856bfe906fe1c4b8eca1b1f9b32941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_1976.asset using Guid(28856bfe906fe1c4b8eca1b1f9b32941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d375092e878d4ccc58e6e21d696beac') in 0.007947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Tileset/RoomFixer_1589.asset
+  artifactKey: Guid(1924c75d6f26b474a8bf31dc61e09151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_1589.asset using Guid(1924c75d6f26b474a8bf31dc61e09151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7006e983f76666c344969dc08be5f9e8') in 0.006263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Tileset/RoomFixer_1587.asset
+  artifactKey: Guid(eb1bc78c809bf8048bc5176d9fce3f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_1587.asset using Guid(eb1bc78c809bf8048bc5176d9fce3f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaeb41d54589ded7f0083f2783b7cf20') in 0.006522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.055049 seconds.
+  path: Assets/Tileset/RoomFixer_2328.asset
+  artifactKey: Guid(bb1314d335377994a852994a7fe2e068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_2328.asset using Guid(bb1314d335377994a852994a7fe2e068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37910fba40fd0758828e2953a21b8ea9') in 0.018849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Tileset/RoomFixer_2339.asset
+  artifactKey: Guid(0cc82f4e63e49d44eb83d7e3469f71be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_2339.asset using Guid(0cc82f4e63e49d44eb83d7e3469f71be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1322882d96d8872e69bb942edf0a2c51') in 0.006950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Tileset/RoomFixer_2389.asset
+  artifactKey: Guid(ed7c611fc975edb4e8f44e085f5a0709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_2389.asset using Guid(ed7c611fc975edb4e8f44e085f5a0709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f09b9da6c80ceaac2edd85e0c424ddd') in 0.007883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Tileset/RoomFixer_2390.asset
+  artifactKey: Guid(d075dce6945b60b45a2e7b6d4fe396e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_2390.asset using Guid(d075dce6945b60b45a2e7b6d4fe396e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d515aeb969a955eed3301faa8631fb2') in 0.006086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Tileset/RoomFixer_2397.asset
+  artifactKey: Guid(abdf785f0b7989a478348e1740dab23d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_2397.asset using Guid(abdf785f0b7989a478348e1740dab23d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76caf0e45b16b1ff086a1818c297ade0') in 0.005994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Tileset/RoomFixer_2395.asset
+  artifactKey: Guid(161e96384d8a0de42a0fa44b0b0a35c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_2395.asset using Guid(161e96384d8a0de42a0fa44b0b0a35c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a08a0deb0dcc13e5555fd55db87bb6f6') in 0.007685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Tileset/RoomFixer_2400.asset
+  artifactKey: Guid(8f05f4c8cc3067842b11202673da0209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_2400.asset using Guid(8f05f4c8cc3067842b11202673da0209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e2de947d410b9ed6d73db577a924b11') in 0.005586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tileset/RoomFixer_2468.asset
+  artifactKey: Guid(2011d846003a58848bbfa34ae43376fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_2468.asset using Guid(2011d846003a58848bbfa34ae43376fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e77be84cd121be7275563726e9f441b9') in 0.008383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Tileset/RoomFixer_2483.asset
+  artifactKey: Guid(eb91e76e366f4b144adedbca11494bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_2483.asset using Guid(eb91e76e366f4b144adedbca11494bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e9d52ea3649761a289ef322de013cc6') in 0.006204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Tileset/RoomFixer_2478.asset
+  artifactKey: Guid(9d5c5a29c40f90c419d1e97cde8778ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_2478.asset using Guid(9d5c5a29c40f90c419d1e97cde8778ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '724e895c870caa251ddcd574dd70b3d0') in 0.005727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Tileset/RoomFixer_2542.asset
+  artifactKey: Guid(f1a684ea3cf474948b75f5533fafdf63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_2542.asset using Guid(f1a684ea3cf474948b75f5533fafdf63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f359cb86bd75aaee7d6073cbc825a133') in 0.006922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tileset/RoomFixer_2545.asset
+  artifactKey: Guid(1f7fcf9406e6cd246baea226c5ad616d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_2545.asset using Guid(1f7fcf9406e6cd246baea226c5ad616d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '484a18496bf12054451f8385d8a5bbae') in 0.006211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Tileset/RoomFixer_2597.asset
+  artifactKey: Guid(3996a2f2fda2f8643aa6b599fdd2dc2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_2597.asset using Guid(3996a2f2fda2f8643aa6b599fdd2dc2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82ca7bca7e27500edc83b87782de8f49') in 0.007202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Tileset/RoomFixer_2614.asset
+  artifactKey: Guid(a02d53eae4c4a6b4a9e85b9d754287c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_2614.asset using Guid(a02d53eae4c4a6b4a9e85b9d754287c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d2d1aacb89a46058658262d6b3c7d83') in 0.007851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Tileset/RoomFixer_2625.asset
+  artifactKey: Guid(e35f336c650687d4a94077b3c19da01f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_2625.asset using Guid(e35f336c650687d4a94077b3c19da01f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbf76fe3407b2f4d2095c94cce6335d8') in 0.006490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Tileset/RoomFixer_2624.asset
+  artifactKey: Guid(01c3e6417b728684fa84bdd9245762f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_2624.asset using Guid(01c3e6417b728684fa84bdd9245762f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0abeaa541a258cc3d2d58587d16be8c') in 0.007027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Tileset/RoomFixer_2488.asset
+  artifactKey: Guid(9fc9b5e06e5800a4daff278be7f26396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_2488.asset using Guid(9fc9b5e06e5800a4daff278be7f26396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75cdb0725d1d485359b31ece4e081c4f') in 0.008024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Tileset/RoomFixer_2615.asset
+  artifactKey: Guid(fcbbb72f2173f3b48a12bc2028c5713b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_2615.asset using Guid(fcbbb72f2173f3b48a12bc2028c5713b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66f3a5be4eed9211bf90db1890bc1b50') in 0.005717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Tileset/RoomFixer_2477.asset
+  artifactKey: Guid(922a41729460dfc4b87446ae5f53d896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_2477.asset using Guid(922a41729460dfc4b87446ae5f53d896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf4c2997cc906f112c8aeab6f9bb0924') in 0.006756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tileset/RoomFixer_2667.asset
+  artifactKey: Guid(915bdcc8c1816134794ab4452ad51981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_2667.asset using Guid(915bdcc8c1816134794ab4452ad51981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de2f890cfb876d0f25d4298609e18437') in 0.008182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Tileset/RoomFixer_2420.asset
+  artifactKey: Guid(55bec70fc16c4804f87c31c368142081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_2420.asset using Guid(55bec70fc16c4804f87c31c368142081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7bb144c21673c4922bd321a84a66b14') in 0.006895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Tileset/RoomFixer_2609.asset
+  artifactKey: Guid(a07232f36ce8176448494252e839cf67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_2609.asset using Guid(a07232f36ce8176448494252e839cf67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aba368f27d47583bd750da110497868') in 0.006173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Tileset/RoomFixer_2554.asset
+  artifactKey: Guid(a844849cebe733743b9b226aca73eaaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_2554.asset using Guid(a844849cebe733743b9b226aca73eaaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76e39e46f410ae73221b950dead8a940') in 0.005152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.096300 seconds.
+  path: Assets/Tileset/RoomFixer_2678.asset
+  artifactKey: Guid(8ded6fa161bab764da74702f057bf279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_2678.asset using Guid(8ded6fa161bab764da74702f057bf279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8ed0fa804fc444e699fe134cf4a57d7') in 0.023447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Tileset/RoomFixer_2740.asset
+  artifactKey: Guid(28c7e34ac7c379542b84c98d3eb93033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_2740.asset using Guid(28c7e34ac7c379542b84c98d3eb93033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa1f27810097422c2ba15c831bd5790b') in 0.007722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Tileset/RoomFixer_2747.asset
+  artifactKey: Guid(d1b79d99e86090248a66ab812b7d52d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_2747.asset using Guid(d1b79d99e86090248a66ab812b7d52d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abf32aa7512218c8adf18a89d86c071a') in 0.006442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Tileset/RoomFixer_2806.asset
+  artifactKey: Guid(e475403cfaca5044ea38baa84acac0a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_2806.asset using Guid(e475403cfaca5044ea38baa84acac0a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ece2cb7342a75e0f8771b1c7248fab36') in 0.008291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Tileset/RoomFixer_2807.asset
+  artifactKey: Guid(a9066a75e578359408d9726d78d048c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_2807.asset using Guid(a9066a75e578359408d9726d78d048c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf7084e612568e7895de3b6099ce3610') in 0.006770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Tileset/RoomFixer_2760.asset
+  artifactKey: Guid(eb27ea087b9798a45ad7c3a532d60085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_2760.asset using Guid(eb27ea087b9798a45ad7c3a532d60085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3f972eb0beadff7ef1cb3d538ca99e8') in 0.007163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Tileset/RoomFixer_2889.asset
+  artifactKey: Guid(a2680fe99b598a749a23cbe73d7fb2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_2889.asset using Guid(a2680fe99b598a749a23cbe73d7fb2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '587fc4a778e3f7d5fabf910228d9b22b') in 0.007358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tileset/RoomFixer_2899.asset
+  artifactKey: Guid(d53ca9c0110c3834fad90ed73d75517e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_2899.asset using Guid(d53ca9c0110c3834fad90ed73d75517e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58df5db00b00fef9fdc655f4d0aef626') in 0.006480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Tileset/RoomFixer_2698.asset
+  artifactKey: Guid(6f507edec8aa5794a9d69202dfefeacf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_2698.asset using Guid(6f507edec8aa5794a9d69202dfefeacf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29910ff2650e73c96fcd1bfd6b240bf7') in 0.012368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tileset/RoomFixer_2953.asset
+  artifactKey: Guid(3487cb4ab9c21ca49a765ac83cc99061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_2953.asset using Guid(3487cb4ab9c21ca49a765ac83cc99061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fcf1a04cd829d04c1f6cfbde7017a10') in 0.008519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Tileset/RoomFixer_2905.asset
+  artifactKey: Guid(9dcc6b3925a0de64ea4604b0096b1df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_2905.asset using Guid(9dcc6b3925a0de64ea4604b0096b1df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '547d28d5d0626869a26332ca4f33753f') in 0.006247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Tileset/RoomFixer_3030.asset
+  artifactKey: Guid(3450540c59ae47f41aa7c30c9d05897e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_3030.asset using Guid(3450540c59ae47f41aa7c30c9d05897e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9da67330a131783b23dacb3b62befe41') in 0.007366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Tileset/RoomFixer_2964.asset
+  artifactKey: Guid(0b345c622bc29c84ebb267a1ed120df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_2964.asset using Guid(0b345c622bc29c84ebb267a1ed120df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '853e7c8159b6513fa173cafd54f0c064') in 0.007562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Tileset/RoomFixer_2874.asset
+  artifactKey: Guid(b3aa82f0dadc519469376bad8128fa22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_2874.asset using Guid(b3aa82f0dadc519469376bad8128fa22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2af7c397ff7a2d107411fb3319ed2ef0') in 0.008528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tileset/RoomFixer_3073.asset
+  artifactKey: Guid(64a7fd1d137ebc942bdc19ad78bf321f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_3073.asset using Guid(64a7fd1d137ebc942bdc19ad78bf321f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '159b7dff4b341324b4f3ff3126eff4e2') in 0.008717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Tileset/RoomFixer_2755.asset
+  artifactKey: Guid(62364ace588ef9d4fac68b5e05c3aa60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_2755.asset using Guid(62364ace588ef9d4fac68b5e05c3aa60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '975973ca5b2d778f861f7474bfa8b462') in 0.006913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Tileset/RoomFixer_3133.asset
+  artifactKey: Guid(20f6c43035f2abe46838064522718c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_3133.asset using Guid(20f6c43035f2abe46838064522718c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f670be62bac3f5bd4f006666e6190176') in 0.006105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Tileset/RoomFixer_3024.asset
+  artifactKey: Guid(e79e96060565e394da07efb835225e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_3024.asset using Guid(e79e96060565e394da07efb835225e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4a080f87f447b8b1972fb9c5ccfd2e9') in 0.004826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Tileset/RoomFixer_3091.asset
+  artifactKey: Guid(ac7b4094213ab134f8570fbe26b8b81a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_3091.asset using Guid(ac7b4094213ab134f8570fbe26b8b81a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66d5ac074f4c15bf5e1329bcfe1eff06') in 0.006555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Tileset/RoomFixer_3132.asset
+  artifactKey: Guid(0cb5a402ee46fea498719b255a0b1779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_3132.asset using Guid(0cb5a402ee46fea498719b255a0b1779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d8f88e0f00bc43af2a16336ec43f4ef') in 0.007375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Tileset/RoomFixer_2945.asset
+  artifactKey: Guid(c98b59f066791c34ca2a6b319477cd98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_2945.asset using Guid(c98b59f066791c34ca2a6b319477cd98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '896a9c4a44b09feba5c40c0a6abc8f08') in 0.005802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Tileset/RoomFixer_3011.asset
+  artifactKey: Guid(bb391c96299953646be91762c1ef6abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_3011.asset using Guid(bb391c96299953646be91762c1ef6abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af346d54fa30481304d6152f36723d6a') in 0.008350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Tileset/RoomFixer_2753.asset
+  artifactKey: Guid(8d9c60e21fd37dd4da59ec0bd600e425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_2753.asset using Guid(8d9c60e21fd37dd4da59ec0bd600e425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d5b91f368268673a15cd41848419a76') in 0.006826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tileset/RoomFixer_2903.asset
+  artifactKey: Guid(9d3b3dc8acdb3d044a57944c140ab15d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_2903.asset using Guid(9d3b3dc8acdb3d044a57944c140ab15d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2b12f9025577848eeca91f4da894bbe') in 0.009452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Tileset/RoomFixer_2692.asset
+  artifactKey: Guid(1750a6139e3dc23448eb19495ddc4e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_2692.asset using Guid(1750a6139e3dc23448eb19495ddc4e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3608fa096544e5950ff412d17166605f') in 0.007519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Tileset/RoomFixer_3025.asset
+  artifactKey: Guid(a00dbea06b060e74fbf855f82a98f2af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_3025.asset using Guid(a00dbea06b060e74fbf855f82a98f2af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bc40f27e30671e7b2f0286a1d039393') in 0.006760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Tileset/RoomFixer_3018.asset
+  artifactKey: Guid(dfbe4ecb9e632da43894f474f7299708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_3018.asset using Guid(dfbe4ecb9e632da43894f474f7299708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f1589b67e16bdd0b01c90b9690b4dcc') in 0.006650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Tileset/RoomFixer_3026.asset
+  artifactKey: Guid(f3674d0c1ec6d684bbea09bb3a97f41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_3026.asset using Guid(f3674d0c1ec6d684bbea09bb3a97f41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5024fc2109b8e85118f9bdfe59da3357') in 0.008038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Tileset/RoomFixer_3138.asset
+  artifactKey: Guid(98d2dc7db3043614baa63c9261ed0c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_3138.asset using Guid(98d2dc7db3043614baa63c9261ed0c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eed2f1dca7bd7bea23c5baf1975ebf05') in 0.007694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tileset/RoomFixer_3136.asset
+  artifactKey: Guid(fce5f998f8ff6ea489e0f7dd9b20027a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_3136.asset using Guid(fce5f998f8ff6ea489e0f7dd9b20027a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19a2c11e3994072090948f9c86d769c8') in 0.006928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Tileset/RoomFixer_3152.asset
+  artifactKey: Guid(38dcc402499e4f5429cbda85e2b65244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_3152.asset using Guid(38dcc402499e4f5429cbda85e2b65244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb71ef6331a312c6b0a7ddb24084cf21') in 0.006149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Tileset/RoomFixer_3236.asset
+  artifactKey: Guid(b1285f4e3efc2064b8c0e31e796d6d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_3236.asset using Guid(b1285f4e3efc2064b8c0e31e796d6d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c940d68cd9bbc84e6688f016fb3dc31') in 0.007651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Tileset/RoomFixer_3195.asset
+  artifactKey: Guid(b28e82f34f9b7034d8f603b7a7806f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_3195.asset using Guid(b28e82f34f9b7034d8f603b7a7806f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f972716356da990f8ff8367416edae34') in 0.006594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tileset/RoomFixer_3254.asset
+  artifactKey: Guid(0f0f641d171156f4da199b2d5aa8ecd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_3254.asset using Guid(0f0f641d171156f4da199b2d5aa8ecd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ada6f9846b2440252e44706b64fe9b1') in 0.008488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Tileset/RoomFixer_3366.asset
+  artifactKey: Guid(3fc3ce606b1bdd74a9763342767e058b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_3366.asset using Guid(3fc3ce606b1bdd74a9763342767e058b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf526d3a587f7b249aecf24e1353a83d') in 0.007186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tileset/RoomFixer_3243.asset
+  artifactKey: Guid(c83a62a0a4c14af439071aaf0edee959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_3243.asset using Guid(c83a62a0a4c14af439071aaf0edee959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9008c0bcbdb6920d4814a9aa3410f82') in 0.007396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tileset/RoomFixer_3372.asset
+  artifactKey: Guid(dd864f10f46a687439e1a02622d979fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_3372.asset using Guid(dd864f10f46a687439e1a02622d979fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb6ae33579d3c0f58f2305c6b5709819') in 0.006803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Tileset/RoomFixer_3444.asset
+  artifactKey: Guid(4bafc4a7508633e498bbcb5c226e6896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_3444.asset using Guid(4bafc4a7508633e498bbcb5c226e6896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '031ba01432e81483b87b5851f0f580eb') in 0.006634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Tileset/RoomFixer_3403.asset
+  artifactKey: Guid(01c7cd33e84a36a49ad1ba0b14ef4803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_3403.asset using Guid(01c7cd33e84a36a49ad1ba0b14ef4803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a60192dc92e4a251ab0b90002aeb9bc5') in 0.005451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Tileset/RoomFixer_3404.asset
+  artifactKey: Guid(5523466f3970cd844a46afbf70bd9445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_3404.asset using Guid(5523466f3970cd844a46afbf70bd9445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcc7070806ad82a1a33293a2e9615a73') in 0.005444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Tileset/RoomFixer_3518.asset
+  artifactKey: Guid(91414106d10bd4f44abec1d7d8fbc681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_3518.asset using Guid(91414106d10bd4f44abec1d7d8fbc681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72e932a93694dffdf174a9ba88805bf5') in 0.006498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tileset/RoomFixer_3505.asset
+  artifactKey: Guid(2dc4e461c38a5b947a1917556db95e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_3505.asset using Guid(2dc4e461c38a5b947a1917556db95e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dcea5ab33e0c17684e56e6ff665a529') in 0.006401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Tileset/RoomFixer_3435.asset
+  artifactKey: Guid(2d8ae72120ad7584aa283aa4c933685b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_3435.asset using Guid(2d8ae72120ad7584aa283aa4c933685b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ad20fbf4724f7b586a9c8c8b7ab2487') in 0.006548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Tileset/RoomFixer_3203.asset
+  artifactKey: Guid(16093e0335e50854c830e352a241ac57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_3203.asset using Guid(16093e0335e50854c830e352a241ac57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03b426ad241298672c0c78252865fd32') in 0.007135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tileset/RoomFixer_3458.asset
+  artifactKey: Guid(f77641efd69e87f41b67e7e3ad71969f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_3458.asset using Guid(f77641efd69e87f41b67e7e3ad71969f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '964d0249d1d5a713d39023b4926f2275') in 0.006652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tileset/RoomFixer_3291.asset
+  artifactKey: Guid(d40cf323ee2700542b3677e5a65d5cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_3291.asset using Guid(d40cf323ee2700542b3677e5a65d5cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc33fb06337a54317a46b77e7f3f0ffc') in 0.007707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Tileset/RoomFixer_3405.asset
+  artifactKey: Guid(158ebe7138ad2d44485bfd2703714356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_3405.asset using Guid(158ebe7138ad2d44485bfd2703714356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec6597705380f7fc0c322834ba10cfa5') in 0.006854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Tileset/RoomFixer_3240.asset
+  artifactKey: Guid(92a1eb1a585305c4d9d0e79073c10025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_3240.asset using Guid(92a1eb1a585305c4d9d0e79073c10025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e153c911670a3d780223078e954c0eb') in 0.007212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Tileset/RoomFixer_3482.asset
+  artifactKey: Guid(f8c63282358641248b0f18912e7d74d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_3482.asset using Guid(f8c63282358641248b0f18912e7d74d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bfef844a64f6c924caa1787e9dcdbe6') in 0.007045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Tileset/RoomFixer_3326.asset
+  artifactKey: Guid(9a3658881b02ad7479ed0ecb0d11bbca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_3326.asset using Guid(9a3658881b02ad7479ed0ecb0d11bbca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09e22409ceba98fd98d9471f49a5f7ae') in 0.007276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Tileset/RoomFixer_3488.asset
+  artifactKey: Guid(ab1b558c5669d494380d9478e4d20440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_3488.asset using Guid(ab1b558c5669d494380d9478e4d20440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7edf900634af2d52a9e0f46bd08fc388') in 0.006911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Tileset/RoomFixer_3342.asset
+  artifactKey: Guid(f8a42c2f6b879774eabceaee4b77acad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_3342.asset using Guid(f8a42c2f6b879774eabceaee4b77acad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af200ae775d92977bbea95f2b9116f3d') in 0.005427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Tileset/RoomFixer_3335.asset
+  artifactKey: Guid(b69df25710f277343b3556e6b920836d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_3335.asset using Guid(b69df25710f277343b3556e6b920836d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1772b9db6b615d64ebecd7c059f0915') in 0.006776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Tileset/RoomFixer_3463.asset
+  artifactKey: Guid(8c487feefe9609a409c78243014fe40f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_3463.asset using Guid(8c487feefe9609a409c78243014fe40f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '152fd09604c49f258e71d60290151e54') in 0.007414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Tileset/RoomFixer_3282.asset
+  artifactKey: Guid(41e51e9bd6b48194dae5953c4e46615f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_3282.asset using Guid(41e51e9bd6b48194dae5953c4e46615f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2a7a3882433a71f5bff98401f94fe49') in 0.007372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Tileset/RoomFixer_3099.asset
+  artifactKey: Guid(71ca3519b6af45540a323e857f7585a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer_3099.asset using Guid(71ca3519b6af45540a323e857f7585a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc83d9a35e954359003e836533c9ea09') in 0.005023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 666.702336 seconds.
+  path: Assets/Tileset/RoomFixer 1_0.asset
+  artifactKey: Guid(1240a888374af024cbc316cde440ec25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer 1_0.asset using Guid(1240a888374af024cbc316cde440ec25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '034b326106af388401a32877d5a9250a') in 0.033256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009407 seconds.
+  path: Assets/Tileset/RoomFixer 1_5.asset
+  artifactKey: Guid(2e8f6c57e4b56554c8a14349d636e14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer 1_5.asset using Guid(2e8f6c57e4b56554c8a14349d636e14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffa1bd01ea62ff085813a0c4d6a52531') in 0.019830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Tileset/RoomFixer 1_6.asset
+  artifactKey: Guid(2aeaf67a7fb51de4b8e98faed4f7405b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer 1_6.asset using Guid(2aeaf67a7fb51de4b8e98faed4f7405b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e40da813f238b9f07aba2473109d88c3') in 0.053797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Tileset/RoomFixer 1_1.asset
+  artifactKey: Guid(4182b863c6cdc0d48af83d9b3641cd89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer 1_1.asset using Guid(4182b863c6cdc0d48af83d9b3641cd89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4be17302e74c8f454f1bf6d936356ab8') in 0.007402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tileset/RoomFixer 1_10.asset
+  artifactKey: Guid(e8e2b0b95a485754d807852a03247fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer 1_10.asset using Guid(e8e2b0b95a485754d807852a03247fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43c8d0fae3192df4ebfef84cec49bcd6') in 0.007401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Tileset/RoomFixer 1_12.asset
+  artifactKey: Guid(f315baf164f842c4883c2a063b9cb9cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer 1_12.asset using Guid(f315baf164f842c4883c2a063b9cb9cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '643b671300fc5f90bb5dda477193161d') in 0.007381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Tileset/RoomFixer 1_3.asset
+  artifactKey: Guid(545d8d638e1fe38438de4b33f2f2ea87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer 1_3.asset using Guid(545d8d638e1fe38438de4b33f2f2ea87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78f71c3139d7dea9ec0deb2a357c7076') in 0.006269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Tileset/RoomFixer 1_14.asset
+  artifactKey: Guid(0eafd28985a277d419d7f97b0d789e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer 1_14.asset using Guid(0eafd28985a277d419d7f97b0d789e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0767e1b5163911017d034c7c642da2e3') in 0.005969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Tileset/RoomFixer 1_13.asset
+  artifactKey: Guid(a0929ab86a73bd34baea037eb66b34c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/RoomFixer 1_13.asset using Guid(a0929ab86a73bd34baea037eb66b34c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da5d766aa2c10413a2e55838b23e304c') in 0.007832 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
