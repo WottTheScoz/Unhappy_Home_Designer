@@ -129,7 +129,7 @@ public class GridBuildingSystem : MonoBehaviour
     {
         if (GameManager.GridIsActive)
         {
-            Temp = Instantiate(building, Vector3.zero, Quaternion.identity).GetComponent<Building>();
+            Temp = Instantiate(building).GetComponent<Building>();
             FollowBuilding();
         }
     }
@@ -144,6 +144,8 @@ public class GridBuildingSystem : MonoBehaviour
     void FollowBuilding()
     {
         ClearArea();
+
+        //Vector3 PositionOffset = new Vector3(0.5f, -1f, 0f);
 
         Temp.Area.position = gridLayout.WorldToCell(Temp.gameObject.transform.position);
         BoundsInt BuildingArea = Temp.Area;

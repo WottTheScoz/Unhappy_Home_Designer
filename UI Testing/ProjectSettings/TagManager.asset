@@ -47,6 +47,9 @@ TagManager:
   - name: TempTilemap
     uniqueID: 1377420515
     locked: 0
+  - name: Furniture
+    uniqueID: 4184868227
+    locked: 0
   - name: OverPanel
     uniqueID: 492640345
     locked: 1

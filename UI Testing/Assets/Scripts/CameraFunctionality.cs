@@ -18,6 +18,7 @@ public class CameraFunctionality : MonoBehaviour
         if (Input.GetKeyDown("z"))
         {
             ZoomCamera();
+            //Recalculate Image Bounds in ImageDragging.
         }
     }
 
