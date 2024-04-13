@@ -4,23 +4,40 @@ using UnityEngine;
 
 public class ImageDragging : MonoBehaviour
 {
-    //Boundary values are multiplied by the following two variables.
-    public float BoundOffsetterX = 1f;
-    public float BoundOffsetterY = 1f;
+    public GameObject MainCamera;
 
-    [Space(20)]
+    [System.NonSerialized]
     public bool ImageIsDraggable;
 
     private float MousePositionOffsetX;
     private float MousePositionOffsetY;
 
+    float CameraOffsetterX = 9f;
+    float CameraOffsetterY = 5f;
+
     private Vector3 ImageBoundsMin;
     private Vector3 ImageBoundsMax;
 
+    private CameraFunctionality cameraFunctionality;
+
     void Start()
     {
+        cameraFunctionality = MainCamera.GetComponent<CameraFunctionality>();
         ImageIsDraggable = true;
         CalculateImageBounds();
+    }
+
+    void Update()
+    {
+        if (Input.GetKeyDown("z"))
+        {
+            float CurrentCameraSize = cameraFunctionality.GetCurrentCameraSize();
+            if(CurrentCameraSize != cameraFunctionality.OriginalSize)
+            {
+                //Hard-coded for now.
+                gameObject.transform.position *= 0.7f;
+            }
+        }
     }
 
     //Calculates the boundaries of this image.
@@ -63,13 +80,26 @@ public class ImageDragging : MonoBehaviour
     {
         if (ImageIsDraggable)
         {
+            //Offsets the image to edge of the camera instead of the middle of it.
+            float TempCameraOffsetterX = CameraOffsetterX;
+            float TempCameraOffsetterY = CameraOffsetterY;
+
+            //Changes the offsetter values based on the current camera size.
+            float CurrentCameraSize = cameraFunctionality.GetCurrentCameraSize();
+            float originalSize = cameraFunctionality.OriginalSize;
+
+            TempCameraOffsetterX *= CurrentCameraSize / originalSize;
+            TempCameraOffsetterY *= CurrentCameraSize / originalSize;
+            
+            //Holds the changes in the image's position.
             float ThisPositionX = gameObject.transform.position.x;
             float ThisPositionY = gameObject.transform.position.y;
 
             //The inverse functions of OnMouseDown()
-            ThisPositionX = Mathf.Clamp(GetMouseWorldPosition("x") + MousePositionOffsetX, ImageBoundsMin.x * BoundOffsetterX, ImageBoundsMax.x * BoundOffsetterX);
-            ThisPositionY = Mathf.Clamp(GetMouseWorldPosition("y") + MousePositionOffsetY, ImageBoundsMin.y * BoundOffsetterY, ImageBoundsMax.y * BoundOffsetterY);
+            ThisPositionX = Mathf.Clamp(GetMouseWorldPosition("x") + MousePositionOffsetX, ImageBoundsMin.x + TempCameraOffsetterX, ImageBoundsMax.x - TempCameraOffsetterX);
+            ThisPositionY = Mathf.Clamp(GetMouseWorldPosition("y") + MousePositionOffsetY, ImageBoundsMin.y + TempCameraOffsetterY, ImageBoundsMax.y - TempCameraOffsetterY);
 
+            //Changes the image's position
             gameObject.transform.position = new Vector3(ThisPositionX, ThisPositionY, 0);
         }
     }
