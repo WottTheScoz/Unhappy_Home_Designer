@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using TMPro;
 using System.Linq;
 
@@ -48,6 +49,18 @@ public class GameManager : MonoBehaviour
         {
             Timer();
         }
+
+        if(Input.GetKeyDown(KeyCode.C))
+        {
+            //Resets the score and each current value of Tags.
+            Score = 0;
+            
+            List<string> KeysToUpdate = new List<string>(philTagsClass.Tags.Keys);
+            foreach(string tag in KeysToUpdate)
+            {
+                philTagsClass.Tags[tag.ToLower()] = philTagsClass.TagsMaxValue[tag.ToLower()];
+            }
+        }
     }
 
     #endregion
@@ -93,9 +106,6 @@ public class GameManager : MonoBehaviour
         Transition.SetActive(true);
         GetAnimation(Transition, DimGameplayAnim);
 
-        //Debug.Log("Current Score is " + Score);
-        //Debug.Log("Max Score is " + MaxScore);
-
         //Prevents the player's score from exceeding the maximum score.
         if(Score > MaxScore)
         {
@@ -104,7 +114,6 @@ public class GameManager : MonoBehaviour
 
         //Generates stars based on player's performance.
         float StarCount = (Score + MaxScore) / ((MaxScore + Mathf.Abs(MinScore)) / 3);
-        //Debug.Log(StarCount);
         StartCoroutine(DrawStars(StarCount));
     }
 
@@ -114,15 +123,27 @@ public class GameManager : MonoBehaviour
         if (philTagsClass.Tags.ContainsKey(tag.ToLower()))
         {
             Score += philTagsClass.Tags[tag.ToLower()];
+            if(philTagsClass.Tags[tag.ToLower()] >= 0)
+            {
+                philTagsClass.Tags[tag.ToLower()]--;
+            }
         }
         else
         {
             Debug.Log("Tag not found in GameManager.ChangeScore()");
         }
 
-        //Debug.Log("Current Score is " + Score);
+        Debug.Log("Current Score is " + Score);
     }
 
+    #endregion
+
+    #region Button Functionality
+    public void ChangeScene(string sceneName)
+    {
+        SceneManager.LoadScene(sceneName);
+    }
+    
     #endregion
 
     #region Animations

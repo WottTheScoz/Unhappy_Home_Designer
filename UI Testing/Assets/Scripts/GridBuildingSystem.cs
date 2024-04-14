@@ -12,12 +12,16 @@ public class GridBuildingSystem : MonoBehaviour
     public Tilemap MainTilemap;
     public Tilemap TempTilemap;
 
+    public GameObject FurnitureHolder;
+
     static Dictionary<TileType, TileBase> TileBases = new Dictionary<TileType, TileBase>();
 
     //Private variables
-    Building Temp;
     Vector3 PrevPos;
     BoundsInt PrevArea;
+    Building Temp;
+
+    List<TileBase> PlaceableAreas = new List<TileBase>();
 
     //Contains standard Unity Methods such as Awake, Start, and Update.
     #region Unity Methods
@@ -35,8 +39,15 @@ public class GridBuildingSystem : MonoBehaviour
         TileBases.Add(TileType.Green, Resources.Load<TileBase>(TilePath + "green"));
         TileBases.Add(TileType.Red, Resources.Load<TileBase>(TilePath + "red"));
 
+        //Removes MainTilemap from the player's view.
         TilemapRenderer MainTilemapRenderer = MainTilemap.GetComponent<TilemapRenderer>();
         MainTilemapRenderer.enabled = false;
+
+        //The length of PlaceableAreas saves the amount of white tiles in MainTilemap.
+        foreach(TileBase tile in GetTilesBlock(MainTilemap.cellBounds, MainTilemap))
+        {
+            PlaceableAreas.Add(tile);
+        }
     }
 
     void Update()
@@ -81,9 +92,27 @@ public class GridBuildingSystem : MonoBehaviour
                 ClearArea();
                 Destroy(Temp.gameObject);
             }
+            else if(Input.GetKeyDown(KeyCode.C))
+            {
+                //Destroys all placed furniture.
+                for(int i = FurnitureHolder.transform.childCount - 1; i >= 0; i--)
+                {
+                    Destroy(FurnitureHolder.transform.GetChild(i).gameObject);
+                }
+
+                //Resets placeability on the board.
+                int Size = PlaceableAreas.Count;
+                TileBase[] TileArray = new TileBase[Size];
+
+                for (int i = 0; i < Size; i++)
+                {
+                    TileArray[i] = TileBases[TileType.White];
+                }
+
+                MainTilemap.SetTilesBlock(MainTilemap.cellBounds, TileArray);
+            }
         }
     }
-
     #endregion
 
     //Gets and sets tiles on a tilemap.
@@ -129,7 +158,7 @@ public class GridBuildingSystem : MonoBehaviour
     {
         if (GameManager.GridIsActive)
         {
-            Temp = Instantiate(building).GetComponent<Building>();
+            Temp = Instantiate(building, FurnitureHolder.transform).GetComponent<Building>();
             FollowBuilding();
         }
     }
@@ -141,11 +170,10 @@ public class GridBuildingSystem : MonoBehaviour
         TempTilemap.SetTilesBlock(PrevArea, ToClear);
     }
 
+
     void FollowBuilding()
     {
         ClearArea();
-
-        //Vector3 PositionOffset = new Vector3(0.5f, -1f, 0f);
 
         Temp.Area.position = gridLayout.WorldToCell(Temp.gameObject.transform.position);
         BoundsInt BuildingArea = Temp.Area;
@@ -187,10 +215,10 @@ public class GridBuildingSystem : MonoBehaviour
         return true;
     }
 
-    public void TakeArea(BoundsInt area)
+    public void TakeArea(BoundsInt area, TileType mainColor)
     {
         SetTilesBlock(area, TileType.Empty, TempTilemap);
-        SetTilesBlock(area, TileType.Red, MainTilemap);
+        SetTilesBlock(area, mainColor, MainTilemap);
     }
 
     #endregion

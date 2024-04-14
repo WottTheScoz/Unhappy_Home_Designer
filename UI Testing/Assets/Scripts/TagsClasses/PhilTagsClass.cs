@@ -7,6 +7,12 @@ public class PhilTagsClass
     public Dictionary<string, float> Tags = new Dictionary<string, float>()
     {
         {"clown", 5 },
-        {"furniture", 1 }
+        {"spikes", 3 }
+    };
+
+    public Dictionary<string, float> TagsMaxValue = new Dictionary<string, float>()
+    {
+        {"clown", 5 },
+        {"spikes", 3 }
     };
 }

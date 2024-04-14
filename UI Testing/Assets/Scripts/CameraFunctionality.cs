@@ -4,13 +4,17 @@ using UnityEngine;
 
 public class CameraFunctionality : MonoBehaviour
 {
-    private float OriginalSize = 5f;
-    private float ZoomedSize = 2.5f;
+    [System.NonSerialized]
+    public float OriginalSize = 5f;
+    [System.NonSerialized]
+    public float ZoomedSize = 2.5f;
+
+    private Camera ThisCamera;
 
     void Start()
     {
-        Camera camera = gameObject.GetComponent<Camera>();
-        camera.orthographicSize = OriginalSize;
+        ThisCamera = gameObject.GetComponent<Camera>();
+        ThisCamera.orthographicSize = OriginalSize;
     }
 
     void Update()
@@ -18,33 +22,35 @@ public class CameraFunctionality : MonoBehaviour
         if (Input.GetKeyDown("z"))
         {
             ZoomCamera();
-            //Recalculate Image Bounds in ImageDragging.
         }
+    }
+
+    public float GetCurrentCameraSize()
+    {
+        return ThisCamera.orthographicSize;
     }
 
     void ZoomCamera()
     {
-        Camera camera = gameObject.GetComponent<Camera>();
-        if (camera.orthographicSize == OriginalSize)
+        if (GetCurrentCameraSize() == OriginalSize)
         {
-            camera.orthographicSize = ZoomedSize;
+            ThisCamera.orthographicSize = ZoomedSize;
         }
         else
         {
-            camera.orthographicSize = OriginalSize;
+            ThisCamera.orthographicSize = OriginalSize;
         }
     }
 
     public void ManualCameraZoom(bool zoomIn)
     {
-        Camera camera = gameObject.GetComponent<Camera>();
         if (zoomIn)
         {
-            camera.orthographicSize = ZoomedSize;
+            ThisCamera.orthographicSize = ZoomedSize;
         }
         else
         {
-            camera.orthographicSize = OriginalSize;
+            ThisCamera.orthographicSize = OriginalSize;
         }
     }
 }
