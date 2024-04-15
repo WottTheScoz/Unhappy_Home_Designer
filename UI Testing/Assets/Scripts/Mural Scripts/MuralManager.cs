@@ -15,6 +15,7 @@ public class MuralManager : MonoBehaviour
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
+        StartCoroutine(SceneIntro());
     }
 
     //Mutes the audio this script is attached to.
@@ -24,6 +25,12 @@ public class MuralManager : MonoBehaviour
     }
 
     #region Scene Transition Functions
+
+    void GetAnimation(GameObject obj, string animName)
+    {
+        obj.GetComponent<Animator>().Play(animName);
+    }
+
     public void EndMuralScene()
     {
         //Debug.Log("Timer has ended");
@@ -33,9 +40,18 @@ public class MuralManager : MonoBehaviour
         StartCoroutine(SceneTransition());
     }
 
+    IEnumerator SceneIntro()
+    {
+        Transition.SetActive(true);
+        GetAnimation(Transition, "SceneTransitionIn");
+        yield return new WaitForSeconds(1);
+        Transition.SetActive(false);
+    }
+
     IEnumerator SceneTransition()
     {
         Transition.SetActive(true);
+        GetAnimation(Transition, "SceneTransitionOut");
         yield return new WaitForSeconds(2);
         SceneManager.LoadScene(NewSceneName);
     }

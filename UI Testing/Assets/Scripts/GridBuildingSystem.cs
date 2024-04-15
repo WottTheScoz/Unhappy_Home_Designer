@@ -14,6 +14,9 @@ public class GridBuildingSystem : MonoBehaviour
 
     public GameObject FurnitureHolder;
 
+    public delegate void AudioDelegate();
+    public event AudioDelegate InstantiateFurniture;
+
     static Dictionary<TileType, TileBase> TileBases = new Dictionary<TileType, TileBase>();
 
     //Private variables
@@ -85,6 +88,7 @@ public class GridBuildingSystem : MonoBehaviour
                 if (Temp.CanBePlaced())
                 {
                     Temp.Place();
+                    InstantiateFurniture?.Invoke();
                 }
             }
             else if (Input.GetKeyDown(KeyCode.Escape))

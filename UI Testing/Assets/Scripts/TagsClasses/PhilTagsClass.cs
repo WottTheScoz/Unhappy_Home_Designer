@@ -6,13 +6,15 @@ public class PhilTagsClass
 {
     public Dictionary<string, float> Tags = new Dictionary<string, float>()
     {
-        {"clown", 5 },
-        {"spikes", 3 }
+        {"clown", 10 },
+        {"spikes", 5 },
+        {"money", -10 }
     };
 
     public Dictionary<string, float> TagsMaxValue = new Dictionary<string, float>()
     {
-        {"clown", 5 },
-        {"spikes", 3 }
+        {"clown", 10 },
+        {"spikes", 5 },
+        {"money", -10}
     };
 }

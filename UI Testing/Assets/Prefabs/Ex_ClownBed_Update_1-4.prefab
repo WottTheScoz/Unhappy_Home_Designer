@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7764180617317218590}
   - component: {fileID: 6872007626918685419}
+  - component: {fileID: 1755831312419916732}
   m_Layer: 0
   m_Name: Ex_ClownBed_Update_1-4
   m_TagString: Untagged
@@ -70,8 +71,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -110099069
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 95244afb69290f344900fcc2ad5d5e33, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -84,3 +85,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1755831312419916732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8545393275389236619}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20c3d0dc38998b54c8663286cf3de86d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Placed: 0
+  Area:
+    m_Position: {x: 0, y: 0, z: 0}
+    m_Size: {x: 1, y: 2, z: 1}
+  SortingOrderNum: 0
+  GameManagerObject: {fileID: 0}

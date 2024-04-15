@@ -33,8 +33,8 @@ public class GameManager : MonoBehaviour
     private bool TimerIsOn = true;
 
     private float Score = 0;
-    private float MaxScore = 100;
-    private float MinScore = -100;
+    private float MaxScore = 30;
+    private float MinScore = -30;
 
     #region Unity Methods
 
@@ -139,6 +139,7 @@ public class GameManager : MonoBehaviour
     #endregion
 
     #region Button Functionality
+    
     public void ChangeScene(string sceneName)
     {
         SceneManager.LoadScene(sceneName);
