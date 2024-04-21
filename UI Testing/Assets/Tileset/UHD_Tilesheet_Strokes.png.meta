@@ -1,0 +1,1215 @@
+fileFormatVersion: 2
+guid: 4b28b9a0d96c8cd418b7850cc1feaf25
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UHD_Tilesheet_Strokes_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1061fa10579bd74486a8d6261d860c2
+      internalID: -464141180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UHD_Tilesheet_Strokes_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60c574cee14d24742a93213b42ba398b
+      internalID: -579006674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UHD_Tilesheet_Strokes_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0e0dd7529c2b774c8ea0d34b949a93e
+      internalID: 183132471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UHD_Tilesheet_Strokes_3
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca95aef90f66a1d498830ad34c4d336c
+      internalID: 601135381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UHD_Tilesheet_Strokes_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 576
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0b4c0d105d6728419b6f78baf445a74
+      internalID: -649272699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UHD_Tilesheet_Strokes_5
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 576
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6b43b1a59fae9e4dbf666070a498273
+      internalID: -573276099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UHD_Tilesheet_Strokes_6
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 576
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4800201574506ec419d936b5ccc9d5b2
+      internalID: 1499643970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UHD_Tilesheet_Strokes_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 376ff92f0caca0843b4a1fa23c03e82e
+      internalID: -548408453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UHD_Tilesheet_Strokes_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3cb10ce14cfda548ac9908524497b12
+      internalID: 665991250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UHD_Tilesheet_Strokes_9
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f5e0ef62fab7ba4faeb6bf740fc8d62
+      internalID: 1631103602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UHD_Tilesheet_Strokes_10
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cdd1c9c8c80ec64c81adbe76eb3cea0
+      internalID: 1287653734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UHD_Tilesheet_Strokes_11
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 448
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 740d9714316cbf541968d3f9dbfe0692
+      internalID: -311651432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UHD_Tilesheet_Strokes_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 448
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e37e255c33aed6e4196531ec89168fea
+      internalID: -1391956328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UHD_Tilesheet_Strokes_13
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 448
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 626e6f288130e1c47aad8c8838f9fa58
+      internalID: 1874694406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UHD_Tilesheet_Strokes_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79c3ff62cdc80884aaae3669dad04a0b
+      internalID: 527635712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UHD_Tilesheet_Strokes_15
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91d101e3eddb5744490ceaf85948c954
+      internalID: 1073397722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UHD_Tilesheet_Strokes_16
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 030bd63e548056b4293cfc0ce988f7cc
+      internalID: 1686865753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UHD_Tilesheet_Strokes_17
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 069de18fea2af7146b14f82fbfeb5adc
+      internalID: -1424973893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UHD_Tilesheet_Strokes_18
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f43a13632971c0e4cb50d2337d05b57c
+      internalID: 1380083002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UHD_Tilesheet_Strokes_19
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 320
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e3d295332fd841469839a85d64c35f9
+      internalID: 1874572112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UHD_Tilesheet_Strokes_20
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 320
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52323d363fad89d4383b32881fdd5f21
+      internalID: 1393154468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UHD_Tilesheet_Strokes_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb331eb60d4e7f488485662e44120ee
+      internalID: 1892337891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UHD_Tilesheet_Strokes_22
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd89c3d9806dff843816533bb3ebee3a
+      internalID: 1106595927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UHD_Tilesheet_Strokes_23
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4a9e6f2d15022144a2e4d16a7d575c5
+      internalID: -1987544785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UHD_Tilesheet_Strokes_24
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09552e8b18340094a9f2f7fc80c45007
+      internalID: 1566652755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UHD_Tilesheet_Strokes_25
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4d88e605712f964d8c9ce4ff15064d5
+      internalID: 696642796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UHD_Tilesheet_Strokes_26
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94fa269f1cc8e8c4fbf383effe681b0c
+      internalID: -1210402192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UHD_Tilesheet_Strokes_27
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 192
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff686e74c64afea42b90821d7977d2a5
+      internalID: 299503162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UHD_Tilesheet_Strokes_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f69b65d974f098642b4a25792769077b
+      internalID: -1419291620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UHD_Tilesheet_Strokes_29
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0346f5a2f949d354b9ca7f2a9e1b808a
+      internalID: 1241202481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UHD_Tilesheet_Strokes_30
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 345e9d90ee6703e4591a8690ed3cb621
+      internalID: -188777154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UHD_Tilesheet_Strokes_31
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 786d6a2d19b0b924baa998b8df09d998
+      internalID: -996440920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UHD_Tilesheet_Strokes_32
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75bf21add02083246a8a5948ce64072e
+      internalID: 1212658052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UHD_Tilesheet_Strokes_33
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 64
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a07fb022eb7ed1429247260d1c46052
+      internalID: 1942662443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UHD_Tilesheet_Strokes_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50f8fbeceec28e548af58cee8384a030
+      internalID: 698401143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UHD_Tilesheet_Strokes_35
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 128, y: 0}
+        - {x: 0, y: 64}
+        - {x: -128, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09c843d6c503c714fb46b49bdc72d4b7
+      internalID: 715608202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      UHD_Tilesheet_Strokes_0: -464141180
+      UHD_Tilesheet_Strokes_1: -579006674
+      UHD_Tilesheet_Strokes_10: 1287653734
+      UHD_Tilesheet_Strokes_11: -311651432
+      UHD_Tilesheet_Strokes_12: -1391956328
+      UHD_Tilesheet_Strokes_13: 1874694406
+      UHD_Tilesheet_Strokes_14: 527635712
+      UHD_Tilesheet_Strokes_15: 1073397722
+      UHD_Tilesheet_Strokes_16: 1686865753
+      UHD_Tilesheet_Strokes_17: -1424973893
+      UHD_Tilesheet_Strokes_18: 1380083002
+      UHD_Tilesheet_Strokes_19: 1874572112
+      UHD_Tilesheet_Strokes_2: 183132471
+      UHD_Tilesheet_Strokes_20: 1393154468
+      UHD_Tilesheet_Strokes_21: 1892337891
+      UHD_Tilesheet_Strokes_22: 1106595927
+      UHD_Tilesheet_Strokes_23: -1987544785
+      UHD_Tilesheet_Strokes_24: 1566652755
+      UHD_Tilesheet_Strokes_25: 696642796
+      UHD_Tilesheet_Strokes_26: -1210402192
+      UHD_Tilesheet_Strokes_27: 299503162
+      UHD_Tilesheet_Strokes_28: -1419291620
+      UHD_Tilesheet_Strokes_29: 1241202481
+      UHD_Tilesheet_Strokes_3: 601135381
+      UHD_Tilesheet_Strokes_30: -188777154
+      UHD_Tilesheet_Strokes_31: -996440920
+      UHD_Tilesheet_Strokes_32: 1212658052
+      UHD_Tilesheet_Strokes_33: 1942662443
+      UHD_Tilesheet_Strokes_34: 698401143
+      UHD_Tilesheet_Strokes_35: 715608202
+      UHD_Tilesheet_Strokes_4: -649272699
+      UHD_Tilesheet_Strokes_5: -573276099
+      UHD_Tilesheet_Strokes_6: 1499643970
+      UHD_Tilesheet_Strokes_7: -548408453
+      UHD_Tilesheet_Strokes_8: 665991250
+      UHD_Tilesheet_Strokes_9: 1631103602
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
