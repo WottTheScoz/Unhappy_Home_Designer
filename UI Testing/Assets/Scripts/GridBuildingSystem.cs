@@ -12,6 +12,8 @@ public class GridBuildingSystem : MonoBehaviour
     public Tilemap MainTilemap;
     public Tilemap TempTilemap;
 
+    [Space(20)]
+    public GameObject GameManagerObject;
     public GameObject FurnitureHolder;
 
     public delegate void AudioDelegate();
@@ -23,6 +25,8 @@ public class GridBuildingSystem : MonoBehaviour
     Vector3 PrevPos;
     BoundsInt PrevArea;
     Building Temp;
+
+    GameManager gameManager;
 
     List<TileBase> PlaceableAreas = new List<TileBase>();
 
@@ -51,6 +55,9 @@ public class GridBuildingSystem : MonoBehaviour
         {
             PlaceableAreas.Add(tile);
         }
+
+        gameManager = GameManagerObject.GetComponent<GameManager>();
+        gameManager.OnGrade += DestroyTemp;
     }
 
     void Update()
@@ -72,6 +79,7 @@ public class GridBuildingSystem : MonoBehaviour
 
                 if (!Temp.Placed)
                 {
+
                     Vector2 TouchPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
                     Vector3Int CellPos = gridLayout.LocalToCell(TouchPos);
 
@@ -85,35 +93,18 @@ public class GridBuildingSystem : MonoBehaviour
             }
             else if (Input.GetKeyDown(KeyCode.Space))
             {
-                if (Temp.CanBePlaced())
-                {
-                    Temp.Place();
-                    InstantiateFurniture?.Invoke();
-                }
+                InputManager("space");
             }
             else if (Input.GetKeyDown(KeyCode.Escape))
             {
-                ClearArea();
-                Destroy(Temp.gameObject);
+                InputManager("escape");
             }
-            else if(Input.GetKeyDown(KeyCode.C))
+            else if (Temp.Placed)
             {
-                //Destroys all placed furniture.
-                for(int i = FurnitureHolder.transform.childCount - 1; i >= 0; i--)
+                if(Input.GetKeyDown(KeyCode.C))
                 {
-                    Destroy(FurnitureHolder.transform.GetChild(i).gameObject);
+                    InputManager("c");
                 }
-
-                //Resets placeability on the board.
-                int Size = PlaceableAreas.Count;
-                TileBase[] TileArray = new TileBase[Size];
-
-                for (int i = 0; i < Size; i++)
-                {
-                    TileArray[i] = TileBases[TileType.White];
-                }
-
-                MainTilemap.SetTilesBlock(MainTilemap.cellBounds, TileArray);
             }
         }
     }
@@ -160,6 +151,14 @@ public class GridBuildingSystem : MonoBehaviour
 
     public void InitializeWithBuilding(GameObject building)
     {
+        if(Temp)
+        {
+            if(!Temp.Placed)
+            {
+                Destroy(Temp.gameObject);
+            }
+        }
+        
         if (GameManager.GridIsActive)
         {
             Temp = Instantiate(building, FurnitureHolder.transform).GetComponent<Building>();
@@ -225,6 +224,18 @@ public class GridBuildingSystem : MonoBehaviour
         SetTilesBlock(area, mainColor, MainTilemap);
     }
 
+    void DestroyTemp()
+    {
+        if(Temp)
+        {
+            if(!Temp.Placed)
+            {
+                Destroy(Temp.gameObject);
+            }
+        }
+        gameManager.OnGrade -= DestroyTemp;
+    }
+
     #endregion
 
     public enum TileType
@@ -234,4 +245,43 @@ public class GridBuildingSystem : MonoBehaviour
         Green,
         Red,
     }
+
+    #region Inputs
+
+    void InputManager(string input)
+    {
+        switch(input)
+        {
+            case "space":
+                if (Temp.CanBePlaced())
+                {
+                    Temp.Place();
+                    InstantiateFurniture?.Invoke();
+                }
+                break;
+            case "escape":
+                ClearArea();
+                Destroy(Temp.gameObject);
+                break;
+            case "c":
+                //Destroys all placed furniture.
+                for(int i = FurnitureHolder.transform.childCount - 1; i >= 0; i--)
+                {
+                    Destroy(FurnitureHolder.transform.GetChild(i).gameObject);
+                }
+
+                //Resets placeability on the board.
+                int Size = PlaceableAreas.Count;
+                TileBase[] TileArray = new TileBase[Size];
+
+                for (int i = 0; i < Size; i++)
+                {
+                    TileArray[i] = TileBases[TileType.White];
+                }
+
+                MainTilemap.SetTilesBlock(MainTilemap.cellBounds, TileArray);
+                break;
+        }
+    }
+    #endregion
 }

@@ -8,13 +8,21 @@ public class PhilTagsClass
     {
         {"clown", 10 },
         {"spikes", 5 },
-        {"money", -10 }
+        {"money", -10 },
+        {"grandma", -10}
     };
 
-    public Dictionary<string, float> TagsMaxValue = new Dictionary<string, float>()
+    /*public Dictionary<string, float> TagsMaxValue = new Dictionary<string, float>()
     {
         {"clown", 10 },
         {"spikes", 5 },
         {"money", -10}
-    };
-}
+    };*/
+    public Dictionary<string, float> TagsMaxValue
+    {
+        get
+        {
+            return Tags;
+        } 
+    }
+}    

@@ -36,6 +36,9 @@ public class GameManager : MonoBehaviour
     private float MaxScore = 30;
     private float MinScore = -30;
 
+    public delegate void GMEvent();
+    public GMEvent OnGrade;
+
     #region Unity Methods
 
     void Start()
@@ -54,6 +57,7 @@ public class GameManager : MonoBehaviour
         {
             //Resets the score and each current value of Tags.
             Score = 0;
+            Debug.Log("Current Score is " + Score);
             
             List<string> KeysToUpdate = new List<string>(philTagsClass.Tags.Keys);
             foreach(string tag in KeysToUpdate)
@@ -97,7 +101,10 @@ public class GameManager : MonoBehaviour
 
         //Unzooms the camera.
         CameraFunctionality cameraFunctionality = MainCamera.GetComponent<CameraFunctionality>();
-        cameraFunctionality.ManualCameraZoom(false);
+        if(cameraFunctionality.GetCurrentCameraSize() != cameraFunctionality.OriginalSize)
+        {
+            cameraFunctionality.ManualCameraZoom(false);
+        }
 
         //Removes all gameplay UI.
         GetAnimation(UI, UIFadeOutAnim);
@@ -115,6 +122,9 @@ public class GameManager : MonoBehaviour
         //Generates stars based on player's performance.
         float StarCount = (Score + MaxScore) / ((MaxScore + Mathf.Abs(MinScore)) / 3);
         StartCoroutine(DrawStars(StarCount));
+
+        //Alerts subscribers of method.
+        OnGrade?.Invoke();
     }
 
     public void ChangeScore(string tag)

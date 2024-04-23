@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 902654727249922677}
   m_Layer: 0
   m_Name: UHD_Quilt
-  m_TagString: Untagged
+  m_TagString: Grandma
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8746559806028890375}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.962, y: -2.006, z: 0}
+  m_LocalPosition: {x: -4, y: -1.75, z: 0}
   m_LocalScale: {x: 0.054215487, y: 0.054215487, z: 0.054215487}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -71,8 +71,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -110099069
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 34ed36f1a0d02bc4088b1c477f1b343d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
