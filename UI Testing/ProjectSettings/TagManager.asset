@@ -8,6 +8,9 @@ TagManager:
   - Spikes
   - Money
   - Grandma
+  - Blood
+  - Cold
+  - Eye
   layers:
   - Default
   - TransparentFX
@@ -62,4 +65,7 @@ TagManager:
     locked: 0
   - name: Stars
     uniqueID: 1650882041
+    locked: 0
+  - name: Particle Effects
+    uniqueID: 2738744223
     locked: 0

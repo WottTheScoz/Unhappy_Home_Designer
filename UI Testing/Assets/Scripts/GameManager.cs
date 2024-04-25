@@ -10,9 +10,12 @@ public class GameManager : MonoBehaviour
     public GameObject MainCamera;
     public GameObject TimerTextObject;
     public GameObject TempTilemap;
-    public GameObject UI;
     public GameObject StarPrefab;
+
+    [Space(20)]
+    public GameObject UI;
     public GameObject Transition;
+    public GameObject EndButtons;
 
     [Space(20)]
     public float TargetTime = 60.0f;
@@ -33,8 +36,10 @@ public class GameManager : MonoBehaviour
     private bool TimerIsOn = true;
 
     private float Score = 0;
-    private float MaxScore = 30;
-    private float MinScore = -30;
+
+    [Space(20)]
+    public float MaxScore = 35;
+    private float MinScore;
 
     public delegate void GMEvent();
     public GMEvent OnGrade;
@@ -43,6 +48,7 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
+        MinScore = -MaxScore;
         StartCoroutine(SceneIntro());
     }
 
@@ -120,7 +126,11 @@ public class GameManager : MonoBehaviour
         }
 
         //Generates stars based on player's performance.
-        float StarCount = (Score + MaxScore) / ((MaxScore + Mathf.Abs(MinScore)) / 3);
+        float StarCount = 0;
+        if(Score != 0)
+        {
+            StarCount = (Score + MaxScore) / ((MaxScore + Mathf.Abs(MinScore)) / 3);
+        }
         StartCoroutine(DrawStars(StarCount));
 
         //Alerts subscribers of method.
@@ -135,7 +145,7 @@ public class GameManager : MonoBehaviour
             Score += philTagsClass.Tags[tag.ToLower()];
             if(philTagsClass.Tags[tag.ToLower()] >= 0)
             {
-                philTagsClass.Tags[tag.ToLower()]--;
+                philTagsClass.Tags[tag.ToLower()] -= 2;
             }
         }
         else
@@ -182,6 +192,7 @@ public class GameManager : MonoBehaviour
             Instantiate(StarPrefab, new Vector3(-SpaceBetweenStars + (i * SpaceBetweenStars), 0, 0), Quaternion.identity);
             yield return new WaitForSeconds(0.5f);
         }
+        EndButtons.SetActive(true);
     }
     #endregion
 }

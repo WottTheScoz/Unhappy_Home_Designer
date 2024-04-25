@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.Tilemaps;
@@ -41,10 +42,22 @@ public class GridBuildingSystem : MonoBehaviour
     void Start()
     {
         string TilePath = @"Tiles/";
-        TileBases.Add(TileType.Empty, null);
-        TileBases.Add(TileType.White, Resources.Load<TileBase>(TilePath + "white"));
-        TileBases.Add(TileType.Green, Resources.Load<TileBase>(TilePath + "green"));
-        TileBases.Add(TileType.Red, Resources.Load<TileBase>(TilePath + "red"));
+
+        foreach(TileType tileType in Enum.GetValues(typeof(TileType)))
+        {
+            if(!TileBases.ContainsKey(tileType))
+            {
+                if(tileType == TileType.Empty)
+                {
+                    TileBases.Add(tileType, null);
+                }
+                else
+                {
+                    string tileString = tileType.ToString();
+                    TileBases.Add(tileType, Resources.Load<TileBase>(TilePath + tileString.ToLower()));
+                }
+            }
+        }
 
         //Removes MainTilemap from the player's view.
         TilemapRenderer MainTilemapRenderer = MainTilemap.GetComponent<TilemapRenderer>();

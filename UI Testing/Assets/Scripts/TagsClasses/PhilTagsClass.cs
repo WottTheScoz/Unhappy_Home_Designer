@@ -9,20 +9,28 @@ public class PhilTagsClass
         {"clown", 10 },
         {"spikes", 5 },
         {"money", -10 },
-        {"grandma", -10}
+        {"grandma", -10}, 
+        {"blood", 5}, 
+        {"cold", -5}, 
+        {"eye", -1}
     };
 
-    /*public Dictionary<string, float> TagsMaxValue = new Dictionary<string, float>()
+    public Dictionary<string, float> TagsMaxValue = new Dictionary<string, float>()
     {
         {"clown", 10 },
         {"spikes", 5 },
-        {"money", -10}
-    };*/
-    public Dictionary<string, float> TagsMaxValue
+        {"money", -10},
+        {"grandma", -10},
+        {"blood", 5}, 
+        {"cold", -5}, 
+        {"eye", -1}
+    };
+
+    /*public Dictionary<string, float> Tags
     {
         get
         {
-            return Tags;
+            return TagsMaxValue;
         } 
-    }
+    }*/
 }    

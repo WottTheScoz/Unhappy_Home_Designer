@@ -21,7 +21,7 @@ public class MainMenu : MonoBehaviour
         StartCoroutine(LoadOut());
     }
 
-    public void QuitGame ()
+    public void QuitGame()
     {
         Debug.Log("Quit");
         Application.Quit();
