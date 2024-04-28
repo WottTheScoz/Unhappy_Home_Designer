@@ -7146,7 +7146,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1003349937
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7689,7 +7689,7 @@ MonoBehaviour:
         m_MethodName: InitializeWithBuilding
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 6783344360908981482, guid: d966191c945df674d9361546e0fee8f1, type: 3}
+          m_ObjectArgument: {fileID: 3410951815975355781, guid: d944be35412edbe43a459438547ad18a, type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
